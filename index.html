@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Det som ska stå i fliken</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
+  <meta charset="utf-8">
+  <title>Johnzade</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/theme.css">
   </head>
   <body>
+  
     <header>
-      <a href="index.html" id="logo">
-        <h1>Mitt namn</h1>
-        <h2>Och en rolig titel</h2>
-      </a>
+	<div class="space">
+      <span id="logo">John Ghavamzadeh</span>
+	  
       <nav>
         <ul>
           <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
         </ul>
       </nav>
+	</div>
     </header>
-    <div id="wrapper">
+    
+	<div id="hejsan">
+	
+	</div>
+	
+	<div id="wrapper">
       <section>
-        <article class="">
-          <h3>Mitt andra inlägg</h3>
-          mitt andra inlägg
-          <p>
-            Innan vi går in på CSS kan du se följande länk för att formatera text: <a href="http://www.w3schools.com/html/html_formatting.asp">Formatera text med html</a>
-          </p>
-        </article>
 
-        <article class="">
-          <h3>Mitt först inlägg</h3>
-          <p>
-            Nu har jag börjat studera!
-          </p>
-        </article>
+		<article class="portfolio tweews">
+		<div class="box">
+		<h4>Politweets</h4>
+        <p>Syftet med Politweets är att kunna hämta och sortera ut Tweets relaterade till dem största politiska partierna i Sverige och samla dem på en plats. Skapad med hjälp av PHP / Erlang / Riak / JavaScript / HTML och CSS. <a href="https://github.com/johnzade/Tweews">Github</a></p>
+        </div>
+		</article>
+		
+		<article class="portfolio moviefinder">
+		<div class="box">
+		<h4>Moviefinder</h4>
+        <p>Är en hemsida likt IMDB som där man kan söka efter filmer, bli medlem och lägga in egna.<br />Skapad med hjälp av PHP / MySQL / JavaScript / HTML och CSS. <a href="http://anony.ws/i/2015/09/01/movefinder.png">Skärmdump</a>.</p>
+        </div>
+		</article>
+		
+		<article class="portfolio rpi">
+		<div class="box">
+		<h4>RPi Surveillance</h4>
+        <p>En väldigt liten övervakningskamera byggd med RPi + en kamera som stream:ar direkt till en hemsida med många funktioner. <a href="http://anony.ws/i/2015/09/01/rpi.png">Skärmpdump</a> / <a href="https://github.com/team-caduceus/bugfree-wookie">Github</a>.</p>
+        </div>
+		</article>
 
       </section>
       <footer>
-        Här kan du lägga in länkar till din linkedin eller twitter
+	  
+	  <script>
+		$(document).ready(function() {
+		var quotes = new Array("Trying to define yourself is like trying to bite your own teeth.", "Think less, do more.", "Copyright is for losers."),
+			randno = quotes[Math.floor( Math.random() * quotes.length )];
+		$('.citat').text( randno );
+		});
+	  </script>
+	  
+	  <div class="citat"></div>
       </footer>
     </div>
+	
   </body>
 </html>
