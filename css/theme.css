@@ -43,7 +43,7 @@ animation: fadein 1000ms;
 
 #logo{float: left; font-size: 1.6em; line-height: 50px; font-weight: 600; color: #fff; cursor: default;}
 article a{color: #333;}
-article a:hover{}
+article a:hover{opacity: 0.5;}
 .space a{color: #fff;}
 .profil{float: left; height: 290px; width: 290px; margin-right: 40px; margin-bottom: 30px;
 -webkit-border-radius: 2px;
