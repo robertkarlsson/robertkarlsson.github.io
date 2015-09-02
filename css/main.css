@@ -4,7 +4,7 @@ GENERAL
 
 body {
  Font-family: Arial, Helvetica, sans-serif;
-	font-color:black;
+ 
 	font-size:1em;
 
 }
@@ -51,19 +51,23 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif #black;
+  font-family: 'Changa One', sans-serif;
+  font-family:black;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
+  
  
 }
 
 h2 {
+
   font-size: 0.75em;
+  font-family: black;
   margin: -5px 0 0;
   font-weight: normal;
-  font-color:black;
+ 
 }
 
 
