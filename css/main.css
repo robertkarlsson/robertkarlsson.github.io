@@ -150,8 +150,7 @@ PAGE: ABOUT
   max-width: 200px;
   margin: 0 auto 30px;
   padding:5px;
-  border:solid;
-	border-radius:15px;
+  
 	
 
 }
@@ -198,14 +197,14 @@ COLORS
 
 /* site body */
 body {
-  background-color: #fff;
+  background-color: #white;
   color: #999;
 }
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: ##6666FF;
+  border-color: ##6600FF;
 }
 
 /* nav background on mobile */
