@@ -102,6 +102,8 @@ footer {
   clear: both;
   padding-top: 50px;
   color: #ccc;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .social-icon {
@@ -147,6 +149,15 @@ PAGE: ABOUT
   display: block;
   max-width: 200px;
   margin: 0 auto 30px;
+  padding:15px;
+  border:solid;
+	border-radius:25px;
+	box-shadow:
+inset 4px 4px 4px rgba(255,255,255, 0.8),
+inset -4px -4px 4px rgba(0,0,0,0.6),
+5px 5px 10px 5px rgba(0,0,0,0.4);
+
+
 
 }
 
