@@ -3,7 +3,10 @@ GENERAL
 ***********************************/
 
 body {
-  font-family: 'Open Sans', sans-serif;
+ Font-family: Arial, Helvetica, sans-serif;
+	font-color:black;
+	font-size:1em;
+
 }
 
 #wrapper {
@@ -18,6 +21,8 @@ a {
 
 img {
   max-width: 100%;
+  padding:50 px
+  margin:10px;
 }
 
 h3, h4 {
