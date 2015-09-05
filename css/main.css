@@ -201,10 +201,10 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: -webkit-linear-gradient(#7A4A27, #A8622F, #4A2C17);
-  background: -o-linear-gradient(#7A4A27, #A8622F, #4A2C17);
-  background: -moz-linear-gradient(#383838, #BDBDBD, #4A2C17);
-  background: linear-gradient(#383838, #BDBDBD, #4A2C17)
+  background: -webkit-linear-gradient(#737373, #4A2C17);
+  background: -o-linear-gradient(#737373, #4A2C17);
+  background: -moz-linear-gradient(#737373, #4A2C17);
+  background: linear-gradient(#737373, #4A2C17)
 }
 
 /* logo text */
@@ -214,7 +214,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #FF3838;
+  color: #FF5E5E;
 }
 
 /* nav link */
@@ -224,6 +224,6 @@ nav a {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #FF3838;
+  color: #FF5E5E;
   text-shadow: 2px 2px 4px #000;
 }
