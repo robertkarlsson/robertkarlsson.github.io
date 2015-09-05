@@ -201,10 +201,10 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: -webkit-linear-gradient(#737373, #3B3B3B);
-  background: -o-linear-gradient(#737373, #3B3B3B);
-  background: -moz-linear-gradient(#737373, #3B3B3B);
-  background: linear-gradient(#737373, #3B3B3B)
+  background: -webkit-linear-gradient(#394B82, #232C47);
+  background: -o-linear-gradient(#394B82, #232C47);
+  background: -moz-linear-gradient(#394B82, #232C47);
+  background: linear-gradient(#394B82, #232C47)
 }
 
 /* logo text */
