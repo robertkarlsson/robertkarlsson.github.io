@@ -199,7 +199,7 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #8888DB;
 }
 
 /* logo text */
@@ -213,7 +213,7 @@ a {
 }
 
 /* nav link */
-nav a, nav a:visited {
+nav a {
   color: #fff;
 }
 
