@@ -193,17 +193,19 @@ body {
 
 /* green header */
 header {
-  background: -webkit-linear-gradient(red, blue);
-  background: -o-linear-gradient(red, blue);
-  background: -moz-linear-gradient(red, blue);
+  background: -webkit-linear-gradient(#6179C2, #323F67);
+  background: -o-linear-gradient(#6179C2, #323F67);
+  background: -moz-linear-gradient(#6179C2, #323F67);
   background: linear-gradient(#6179C2, #323F67)
-  /*background: #4E4EF2;*/
-  /*border-color: #6363FF;*/
 }
 
 /* nav background on mobile */
 nav {
-  background: #6B85D6;
+  background: -webkit-linear-gradient(#6B85D6, #6179C2);
+  background: -o-linear-gradient(#6B85D6, #6179C2);
+  background: -moz-linear-gradient(#6B85D6, #6179C2);
+  background: linear-gradient(#6B85D6, #6179C2)
+  background: #6B85D6, #6179C2;
 }
 
 /* logo text */
