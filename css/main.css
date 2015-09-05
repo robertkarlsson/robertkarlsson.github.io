@@ -225,4 +225,5 @@ nav a {
 /* selected nav link */
 nav a.selected, nav a:hover {
   color: #615F5F;
+  text-shadow: 2px 2px #000;
 }
