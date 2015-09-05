@@ -204,7 +204,7 @@ nav {
   background: -webkit-linear-gradient(#323F67, #FFF);
   background: -o-linear-gradient(#323F67, #FFF);
   background: -moz-linear-gradient(#323F67, #FFF);
-  background: linear-gradient(#323F67, #FFF)
+  background: linear-gradient(#FFF, #323F67)
 }
 
 /* logo text */
