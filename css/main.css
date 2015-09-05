@@ -193,8 +193,12 @@ body {
 
 /* green header */
 header {
-  background: #4E4EF2;
-  border-color: #6363FF;
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#6363FF, #4E4EF2)
+  /*background: #4E4EF2;*/
+  /*border-color: #6363FF;*/
 }
 
 /* nav background on mobile */
