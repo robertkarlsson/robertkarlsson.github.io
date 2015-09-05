@@ -201,10 +201,10 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: -webkit-linear-gradient(#A1653A, #59361D);
-  background: -o-linear-gradient(#A1653A, #59361D);
-  background: -moz-linear-gradient(#A1653A, #59361D);
-  background: linear-gradient(#A1653A, #59361D)
+  background: -webkit-linear-gradient(#A1653A, #7A4A27);
+  background: -o-linear-gradient(#A1653A, #7A4A27);
+  background: -moz-linear-gradient(#A1653A, #7A4A27);
+  background: linear-gradient(#A1653A, #7A4A27)
 }
 
 /* logo text */
@@ -214,7 +214,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6A7EB4;
+  color: #B5B5B5;
 }
 
 /* nav link */
@@ -224,5 +224,5 @@ nav a {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #323F67;
+  color: #CC9D6E;
 }
