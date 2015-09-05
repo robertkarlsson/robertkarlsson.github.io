@@ -197,7 +197,6 @@ header {
   background: -o-linear-gradient(#6179C2, #232C47);
   background: -moz-linear-gradient(#6179C2, #232C47);
   background: linear-gradient(#6179C2, #232C47)
-  text-shadow: 3px 3px 8px #000;
 }
 
 /* nav background on mobile */
@@ -211,6 +210,7 @@ nav {
 /* logo text */
 h1, h2 {
   color: #FFF;
+  text-shadow: 3px 3px 4px #000;
 }
 
 /* links */
