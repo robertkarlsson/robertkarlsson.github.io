@@ -193,10 +193,10 @@ body {
 
 /* green header */
 header {
-  background: -webkit-linear-gradient(#6179C2, #323F67);
-  background: -o-linear-gradient(#6179C2, #323F67);
-  background: -moz-linear-gradient(#6179C2, #323F67);
-  background: linear-gradient(#6179C2, #323F67)
+  background: -webkit-linear-gradient(#6179C2, #293454);
+  background: -o-linear-gradient(#6179C2, #293454);
+  background: -moz-linear-gradient(#6179C2, #293454);
+  background: linear-gradient(#6179C2, #293454)
 }
 
 /* nav background on mobile */
