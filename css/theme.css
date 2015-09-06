@@ -55,7 +55,7 @@ height: 450px;
 width: 100%;
 background-color: #ECECEC;
 }
-.om{border: 20px solid #fff;}
+.om{border: 20px solid #fff; padding-bottom: 0;}
 .slogan{float: right;}
 
 .box{background-color: rgba(245, 245, 245, 0.95); padding: 40px;

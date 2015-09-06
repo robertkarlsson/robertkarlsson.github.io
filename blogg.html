@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Johnzade</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/theme.css">
+  </head>
+  <body>
+  
+    <header>
+	<div class="space">
+      <span id="logo">John Ghavamzadeh</span>
+	  
+      <nav>
+        <ul>
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="blogg.html" class="selected">Blogg</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+        </ul>
+      </nav>
+	</div>
+    </header>
+    
+	<div id="hejsan">
+	
+	</div>
+	
+	<div id="wrapper">
+      <section>
+
+		<article class="om">
+		<div class="titel"><h3>Webben om fem år</h3><div class="datum">2015-09-05</div></div>
+		<p>Mycket har hänt på webben sedan jag började skapa hemsidor. HTML5 och CSS3 lanserades, och detta förändrade i stort sätt allt och helt plötsligt så blev hemsidor så mycket mer interaktiva men vad kommer egentligen att hända med webben om fem år?</p>
+		<p>Jag har väldigt svårt att se hur front-end gränssnittet kommer att utvecklas inom den kommande tiden, dock har jag oerhört höga förväntningar gällande back-end hållet, speciellt när det kommer till JavaScript.</p>
+		<p>Det har ju dykt upp oerhört många ramverk som t.ex. Node.js som arbetar mot back-end hållet med servrar vilket underlättar om man vill skapa avancerade applikationer eller varför inte spel som körs direkt i webbläsaren.</p>
+		<p>Webben som precis allt annat här i livet kommer att utvecklas, uppkopplingen blir snabbare, hårdvaran blir bättre och mer människor kommer att få tillgång till internet helt enkelt så det ska bli oerhört kul att se vad webben har att erbjuda både för användare och utvecklare.</p>
+		</article>
+		
+		<article class="om">
+		<div class="titel"><h3>Första inlägget</h3><div class="datum">2015-09-01</div></div>
+		<p>Nu har jag börjat läsa <a href="http://www.lernia.se/utbildning/distans/data-och-it/javascriptutvecklare---frontend-26659/">JavaScript Front-end developer</a> på Lernia och detta är mitt första inlägg.</p>
+		</article>
+
+      </section>
+      <footer>
+	  
+	  <script>
+		$(document).ready(function() {
+		var quotes = new Array("Trying to define yourself is like trying to bite your own teeth.", "Think less, do more.", "Copyright is for losers."),
+			randno = quotes[Math.floor( Math.random() * quotes.length )];
+		$('.citat').text( randno );
+		});
+	  </script>
+	  
+	  <div class="citat"></div>
+      </footer>
+    </div>
+	
+  </body>
+</html>
