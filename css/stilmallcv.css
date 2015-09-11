@@ -6,6 +6,16 @@ body
 	background-color:white;
 
 }
+/* mouse over link */
+a:hover {
+    color: silver;
+}
+
+/* selected link */
+a:active {
+    color: black;
+} 
+
 
 
 p {
