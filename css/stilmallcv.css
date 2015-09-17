@@ -20,7 +20,7 @@ a:active {
 
 
 p {
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+		font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:medium;
 
 }
@@ -44,7 +44,7 @@ img
 
 h1
 {
-font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:small;
 	font-color:black;
 
@@ -91,7 +91,7 @@ nav a
 
 form {
     /* Just to center the form on the page */
-    margin-top:10px;
+    margin-top:100px;
     margin-left:auto;
     margin-right:auto;
     width: 400px;
