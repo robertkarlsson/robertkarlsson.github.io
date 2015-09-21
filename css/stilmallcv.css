@@ -1,7 +1,7 @@
 body
 {
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:medium;
+	font-size:large;
 	font-color:black;
 	background-color:white;
 	text-align:justify;
@@ -21,7 +21,10 @@ a:active {
 
 p {
 		font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:medium;
+	font-size:large;
+	font-color:black;
+	background-color:white;
+	text-align:justify;
 
 }
 }
@@ -53,15 +56,17 @@ img
 h1
 {
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:large;
+	font-size:x-large;
 	font-color:black;
+	background-color:white;
+	text-align:justify;
 
 }
 
 h2
 {
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:large;
+	font-size:x-large;
 	font-color:black;
 }
 
@@ -75,8 +80,11 @@ h2
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:5px;
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:medium;
+		font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:large;
+	font-color:black;
+	background-color:white;
+	text-align:justify;
 	align:center;
 	
 }
