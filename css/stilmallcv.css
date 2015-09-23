@@ -115,8 +115,8 @@ nav a
 form {
     /* Just to center the form on the page */
     margin-top:100px;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left:10;
+    margin-right:10;
     width: 400px;
     /* To see the outline of the form */
     padding: 1em;
