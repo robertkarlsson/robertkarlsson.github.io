@@ -92,8 +92,8 @@ h2
 box {
 	width:700px;
 	height:auto;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left:0px;
+	margin-right:10px;
 }
 
 nav {
@@ -114,7 +114,7 @@ nav a
 
 form {
     /* Just to center the form on the page */
-    margin-top:100px;
+    margin-top:50px;
     margin-left:5;
     margin-right:0;
     width: 400px;
