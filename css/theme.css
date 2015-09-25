@@ -19,7 +19,7 @@ width: 100%;
 
 header h1{
 color: #fff;
-font-size: 1.6em;
+font-size: 1.8em;
 margin: 0;
 padding: 0;
 line-height: 50px;
@@ -83,12 +83,12 @@ nav ul li a{color: #fff;}
 nav ul li .selected{color: #555;}
 .citat{font-style: italic; color: #B3B3B3;}
 
-h1,h2,h3{
-font-size: 1.6em;
+h1,h2{
+font-size: 1.8em;
 }
 
 h4,h5,h6{
-font-size: 1.3em;
+font-size: 1.6em;
 }
 
 a{text-decoration: none;
