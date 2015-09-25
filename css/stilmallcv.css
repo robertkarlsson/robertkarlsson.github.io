@@ -17,7 +17,10 @@ a:active {
     color: black;
 } 
 
-html{ overflow-y:scroll;}
+html {
+overflow: -moz-scrollbars-vertical; 
+overflow-y: scroll;
+}
 
 p {
 		font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
