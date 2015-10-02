@@ -17,9 +17,12 @@ a:active {
     color: black;
 } 
 
+a:visited
+{color:grey;}
+
 .menu
 { font-family:"Abel";
-  font-size:x-large;
+  font-size:xx-large;
   color:black;
 }
 
@@ -61,7 +64,7 @@ img
 {
 	height:auto;
 	width:auto;
-	margin:auto;
+	margin:10px;
 }
 
 h1
@@ -110,13 +113,12 @@ box {
 nav {
   text-align: center;
   padding: 10px 0;
-
   font-family:"Palatino Linotype";
-  font-size:xxx-large;
+  font-size:xx-large;
   }
 nav a
 {	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:large;
+	font-size:XX-large;
 	font-color:black;
 	background-color:white;
 	margin:35px;
