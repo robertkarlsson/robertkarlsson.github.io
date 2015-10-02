@@ -67,6 +67,14 @@ img
 	margin:10px;
 }
 
+
+img1
+{background-image:url('Jhttp://i.imgur.com/6fQgrph.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+
 h1
 {
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
