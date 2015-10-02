@@ -1,0 +1,124 @@
+
+
+body
+{
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:medium;
+	text-align: justify;
+	
+}
+
+
+h1
+{
+	font-family:"Script MT Bold";
+	font-size:xx-large;
+	color:fuchsia;
+	margin:10px;
+}
+
+h2
+{
+	font-family:"Script MT Bold";
+	font-size:large;
+	color:fuchsia;
+	margin:10px;
+	
+	
+}
+
+li
+{
+	margin-left:5px;
+}
+
+img{
+float:right;
+margin-left:10px;
+margin-right:0px;
+
+	
+}
+.sidhuvd
+{
+	width:900px;
+	height:80px;
+	border-top:1px fuchsia solid;
+	border-bottom:1px fuchsia solid;
+	margin-bottom:5px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	padding:5px;
+	
+	
+}
+
+.wrapper
+{	
+	width:900px;
+	height:400px;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border:1px;
+	text-align:justify;
+	padding:5px;
+}
+
+.box
+{ width:250px;
+height:auto;
+margin:10px;
+padding:10px;	
+border-left:solid thin silver;
+float:right;
+}
+.box2
+{
+	width:600px;
+	height:auto;
+	margin:10px;
+	float:left;
+	}
+	.box3
+{
+	width:800px;
+	height:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	
+	}
+
+
+.sidfot
+
+{
+	width:900px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:1px solid fuchsia;
+	padding:5px;
+	text-align:center;
+
+}
+
+a:link { 
+font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+text-decoration: none; color: #CC0099;
+margin-left:50px;
+}
+
+ a:visited {
+  font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ text-decoration: none; color: fuchsia;} 
+ 
+ a:hover { 
+ font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ text-decoration: underline; color: #silver;}
+ 
+ 
