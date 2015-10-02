@@ -30,11 +30,12 @@ overflow-y: scroll;
 }
 
 p {
-		font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
-	font-color:black;
+	color:black;
 	background-color:white;
 	text-align:justify;
+	line-height:75%;
 
 }
 }
