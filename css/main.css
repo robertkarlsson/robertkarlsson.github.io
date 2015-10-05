@@ -45,9 +45,9 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Lobster', cursive;
   margin: 15px 0;
-  font-size: 1.75em;
+  font-size: 2.75em;
   font-weight: normal;
   line-height: 0.8em;
 }
@@ -140,8 +140,8 @@ PAGE: ABOUT
 
 .profile-photo {
   display: block;
-  max-width: 200px;
-  margin: 0 auto 30px;
+  max-width: 700px;
+  margin: 0 auto 50px;
 
 }
 
@@ -193,31 +193,50 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: -webkit-linear-gradient(#6179C2, #232C47);
+  background: -o-linear-gradient(#6179C2, #232C47);
+  background: -moz-linear-gradient(#6179C2, #232C47);
+  background: linear-gradient(#6179C2, #232C47)
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: -webkit-linear-gradient(#232C47, #131A30);
+  background: -o-linear-gradient(#232C47, #131A30);
+  background: -moz-linear-gradient(#232C47, #131A30);
+  background: linear-gradient(#232C47, #131A30)
 }
 
 /* logo text */
-h1, h2 {
-  color: #fff;
+h1 {
+  color: #FF3D3D;
+  text-shadow: 3px 3px 4px #000;
+}
+
+h2 {
+  color: #FFF;
+  text-shadow: 3px 3px 4px #000;
 }
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #FF5E5E;
 }
 
 /* nav link */
-nav a, nav a:visited {
+nav a {
   color: #fff;
 }
 
+/* nav link hover */
+nav a:hover {
+  color: #ADADAD;
+  text-shadow: 2px 2px 4px #000;
+}
+
+
 /* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;
+nav a.selected {
+  color: #FF5E5E;
+  text-shadow: 2px 2px 4px #000;
 }
