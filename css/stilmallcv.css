@@ -179,8 +179,7 @@ button {
 {
 	list-style:none;
 	position:relative;
-	float:left;
-	margin:0;
+	margin:auto;
 	padding:0
 }
 
