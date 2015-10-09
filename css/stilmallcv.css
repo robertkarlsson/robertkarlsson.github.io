@@ -171,3 +171,15 @@ button {
 
  a:visited
 {color:black;}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  font-family:"Palatino Linotype";
+  font-size:large;
+  }
+nav a
+{
+	margin:25px;
+	color:gray;
+}
