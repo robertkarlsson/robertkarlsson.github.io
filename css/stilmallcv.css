@@ -133,7 +133,15 @@ nav a
 	color:gray;
 }
 
+*/testar*/
 
+nav ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
 
 form {
   
