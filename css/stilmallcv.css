@@ -174,7 +174,8 @@ nav {
   text-align: center;
   padding: 10px 0;
   font-family:"Palatino Linotype";
-  font-size:xx-large;
+  font-size:large;
+  font-color:#333333;
   }
 nav a
 {
