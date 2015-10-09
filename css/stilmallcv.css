@@ -8,17 +8,6 @@ body
 
 }
 
-a:hover {
-    color: silver;
-}
-
-
-a:active {
-    color: black;
-} 
-
-a:visited
-{color:grey;}
 
 .menu
 { font-family:"Abel";
@@ -170,6 +159,18 @@ button {
 }
 
   
+
+#primary_nav_wrap a:hover {
+    color: silver;
+}
+
+
+#primary_nav_wrap a:active {
+    color: black;
+} 
+
+#primary_nav_wrap a:visited
+{color:black;}
 #primary_nav_wrap
 {
 	margin-top:15px
