@@ -28,8 +28,6 @@ p {
 	background-color:white;
 	text-align:justify;
 	line-height:150%;
-
-}
 }
 
 .sidhuvud
@@ -176,10 +174,10 @@ nav {
   text-align: center;
   padding: 10px 0;
   font-family:"Palatino Linotype";
-  font-size:large;
+  font-size:xx-large;
   }
 nav a
 {
 	margin:25px;
-	color:gray;
+	color:silver;
 }
