@@ -135,11 +135,11 @@ nav a
 
 */testar*/
 
-nav ul {
+nav li {
 	display: none;
 }
 
-	nav ul li:hover > ul {
+	nav li:hover > ul {
 		display: block;
 	}
 
