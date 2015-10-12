@@ -105,9 +105,9 @@ box {
 	margin-right:10px;
 }
 
-#box1
-{ width:autopx;
-height:autopx;
+.box1
+{ width:auto;
+height:auto;
 padding:15px;
 border-left:1px silver;
 
