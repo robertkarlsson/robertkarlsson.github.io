@@ -106,8 +106,9 @@ h2
 }
 
 .box1
-{ width:200px;
-height:300px;
+{ width:autopx;
+height:autopx;
+padding:15px;
 border-left:1px silver;
 
 form {
