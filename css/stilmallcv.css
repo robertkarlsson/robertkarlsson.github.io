@@ -8,6 +8,34 @@ body
 
 }
 
+  
+
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  font-family:"Palatino Linotype";
+  font-size:large;
+  font-color:#333333;
+  }
+nav a
+{
+	margin:25px;
+	color:silver;
+}
+
+ a:hover {
+    color: silver;
+}
+
+
+ a:active {
+    color: black;
+} 
+
+ a:visited
+{color:black;}
+
 
 .menu
 { font-family:"Abel";
@@ -160,29 +188,3 @@ button {
     margin-left: .5em;
 }
 
-  
-
- a:hover {
-    color: silver;
-}
-
-
- a:active {
-    color: black;
-} 
-
- a:visited
-{color:black;}
-
-nav {
-  text-align: center;
-  padding: 10px 0;
-  font-family:"Palatino Linotype";
-  font-size:large;
-  font-color:#333333;
-  }
-nav a
-{
-	margin:25px;
-	color:silver;
-}
