@@ -5,7 +5,7 @@ body{
 	
 	
 .wrapper2
-{ height:1000px;
+{ height:1500px;
 width:1200px;	
 margin-left:auto;
 margin-right:auto;
@@ -22,8 +22,6 @@ margin-right:auto;
 	border-right-color:silver;
 	padding:10px;
 	text-align:justify;
-	margin-left:20px;
-	margin-right:0px;
 	float:left;
 		}
 .boxright
@@ -32,8 +30,6 @@ margin-right:auto;
 	width:500px;
 	padding:10px;
 	text-align:justify;	
-	margin-left:2px;
-	margin-right:5px;
 	float:right;
 
 }
@@ -75,4 +71,7 @@ h2{
 
 em {
 	color:#333333;
+}
+
+link {color:gray;
 }
