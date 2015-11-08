@@ -12,7 +12,7 @@ margin-right:auto;
 }
 .boxleft
 {
-	height:1200px;
+	height:2000px;
 	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
@@ -22,7 +22,7 @@ margin-right:auto;
 		}
 .boxright
 {
-	height:1200px;
+	height:2000px;
 	width:550px;
 	padding-bottom:10px;
 	padding-top:10px;
