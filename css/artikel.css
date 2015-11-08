@@ -12,7 +12,7 @@ margin-right:auto;
 }
 .boxleft
 {
-	height:650px;
+	height:900px;
 	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
@@ -22,8 +22,8 @@ margin-right:auto;
 		}
 .boxright
 {
-	height:650px;
-	width:625px;
+	height:900px;
+	width:575px;
 	padding-bottom:10px;
 	padding-top:10px;
 	text-align:justify;	
