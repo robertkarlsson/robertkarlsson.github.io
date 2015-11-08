@@ -12,7 +12,7 @@ margin-right:auto;
 }
 .boxleft
 {
-	height:900px;
+	height:1200px;
 	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
@@ -22,8 +22,8 @@ margin-right:auto;
 		}
 .boxright
 {
-	height:900px;
-	width:575px;
+	height:1200px;
+	width:550px;
 	padding-bottom:10px;
 	padding-top:10px;
 	text-align:justify;	
@@ -44,7 +44,7 @@ p
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:medium;
 	line-height: 1.25;
-	margin-bottom:5px;
+	margin-bottom:10px;
 	margin-top:5px;
 	color:black;
 }
