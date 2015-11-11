@@ -1,7 +1,7 @@
 
 	
 .wrapper2
-{ height:1550px;
+{ height:1000px;
 width:1200px;	
 margin-left:auto;
 margin-right:auto;
@@ -13,7 +13,7 @@ display:block;
 }
 .boxleft
 {
-	height:1500px;
+	height:1000px;
 	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
