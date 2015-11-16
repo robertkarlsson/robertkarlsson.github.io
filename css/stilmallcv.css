@@ -11,14 +11,14 @@ body
   
 
 
-nav {
+.nav {
   text-align: center;
   padding: 10px 0;
   font-family:"Palatino Linotype";
   font-size:large;
   font-color:#333333;
   }
-nav a
+.nav a
 {
 	margin:25px;
 	color:silver;
