@@ -19,11 +19,12 @@ div {
 .boxmeny
 
 {
-	height:300px;
-	width:200px;
-padding:15px;
+	height:100px;
+	width:100%;
+	padding:15px;
 	float:left;
 	position:fixed;
+	background-color:white;
 
 }
 
