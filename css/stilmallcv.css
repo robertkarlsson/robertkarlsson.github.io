@@ -91,7 +91,7 @@ p {
 	margin-bottom:25px;
 	margin-left:auto;
 	margin-right:auto;
-	position:fixed;
+
 
 	
 }
@@ -100,7 +100,7 @@ p {
 {
 	width:600px;
 	height:auto;
-	margin: 0 auto;
+	margin:0;
 	
 	
 }
@@ -108,7 +108,8 @@ img
 {
 	height:auto;
 	width:auto;
-	margin:auto;
+margin-left:auto;
+margin-right:auto;
 	
 }
 
