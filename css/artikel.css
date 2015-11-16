@@ -1,7 +1,7 @@
 
 	
 .wrapper2
-{ height:1000px;
+{ height:1050px;
 width:1200px;	
 margin-bottom:15px;
 margin-left:auto;
@@ -14,7 +14,7 @@ margin-top:15px;
 }
 .boxleft
 {
-	height:900px;
+	height:1000px;
 	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
@@ -24,10 +24,9 @@ margin-top:15px;
 		}
 .boxright
 {
-	height:900px;
+	height:1000px;
 	width:550px:
-	padding-bottom:10px;
-	padding-top:10px;
+	padding:10px;
 	text-align:justify;	
 	float:right;
 
