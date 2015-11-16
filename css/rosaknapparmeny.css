@@ -19,9 +19,9 @@ div {
 .boxmeny
 
 {
-	height:100px;
-	width:100%;
-	padding:15px;
+	height:400px;
+	width:200px;
+	padding:5px;
 	float:left;
 	position:fixed;
 	background-color:white;
