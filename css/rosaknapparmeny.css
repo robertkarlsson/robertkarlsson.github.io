@@ -1,9 +1,4 @@
-p {
-	margin: 0 0 2em;
-}
-h1 {
-	margin: 0;
-}
+
 a {
 	color: #339;
 	text-decoration: none;
@@ -11,20 +6,17 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-div {
-	padding: 20px 0;
 
-}
 
 .boxmeny
 
 {
 	height:400px;
-	width:200px;
+	width:185px;
 	padding:5px;
 	float:left;
 	position:fixed;
-	background-color:white;
+	background-color:transparent;
 
 }
 
