@@ -13,13 +13,13 @@ a:hover {
 }
 div {
 	padding: 20px 0;
-	border-bottom: solid 1px #ccc;
+
 }
 
 .boxmeny
 
 {
-	height:500px;
+	height:300px;
 	width:200px;
 	margin-bottom:10px;
 	margin-left:15px;
@@ -59,19 +59,8 @@ div {
 	top: 1px;
 }
 
-.bigrounded {
-	-webkit-border-radius: 2em;
-	-moz-border-radius: 2em;
-	border-radius: 2em;
-}
-.medium {
-	font-size: 12px;
-	padding: .4em 1.5em .42em;
-}
-.small {
-	font-size: 11px;
-	padding: .2em 1em .275em;
-}
+
+
 
 .rosy {
 	color: #fae7e9;
