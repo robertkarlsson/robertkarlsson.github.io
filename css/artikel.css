@@ -14,8 +14,8 @@ margin-top:15px;
 }
 .boxleft
 {
-	height:800px;
-	width:500px;
+	height:900px;
+	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
 	padding:10px;
@@ -24,8 +24,8 @@ margin-top:15px;
 		}
 .boxright
 {
-	height:800px;
-	width:450px:
+	height:900px;
+	width:550px:
 	padding-bottom:10px;
 	padding-top:10px;
 	text-align:justify;	
