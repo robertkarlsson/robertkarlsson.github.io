@@ -2,10 +2,11 @@
 	
 .wrapper2
 { height:1000px;
-width:1000px;	
+width:1200px;	
+margin-bottom:15px;
 margin-left:auto;
 margin-right:auto;
-display:block;
+margin-top:15px;
 
 
 	
@@ -14,7 +15,7 @@ display:block;
 .boxleft
 {
 	height:1000px;
-	width:500px;
+	width:600px;
 	border-right:2px silver solid;
 	border-right-color:silver;
 	padding:10px;
@@ -24,7 +25,7 @@ display:block;
 .boxright
 {
 	height:1500px;
-	width:450px;
+	width:550px;
 	padding-bottom:10px;
 	padding-top:10px;
 	text-align:justify;	
