@@ -63,9 +63,11 @@ p {
 .sidhuvud
 {
 	width:100%;
-	height:200px;
+	height:400px;
 	margin-bottom:25px;
-position:center;
+	margin-left:auto;
+	margin-right:auto;
+	position:center;
 	
 }
 
@@ -81,7 +83,8 @@ img
 {
 	height:auto;
 	width:auto;
-	margin:10px;
+	margin:auto;
+	
 }
 
 
