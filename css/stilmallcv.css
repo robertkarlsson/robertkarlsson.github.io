@@ -95,9 +95,9 @@ p {
 	margin-bottom:25px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:200px;
+	margin-top:0;
 	display:block;
-	position:top;
+	position:fixed;
 
 
 	
@@ -155,7 +155,7 @@ h2
 	margin-bottom:0;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:100px;
+	margin-top:auto;
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
 	font-color:black;
