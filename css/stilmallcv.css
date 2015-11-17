@@ -233,5 +233,7 @@ button {
 .mellanrum
 {
 height:1000px;
-width:auto;
+width:1200px;
+border:none;
+background:white;
 }
