@@ -87,9 +87,7 @@ p {
 .sidhuvud
 {
 	width:100%;
-	height:auto;
-	background-image:url("http://i.imgur.com/VIhcJiK.jpg");
-	background-repeat:no repeat;
+	height:85;
 	position:top;
 	margin-bottom:25px;
 	margin-left:auto;
