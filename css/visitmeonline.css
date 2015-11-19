@@ -23,7 +23,7 @@ margin-right:auto;
 
 .boxleft
 {height:auto;
-    width:450;
+    width:450px;
     float:left;
     padding:10px;
     margin:10px;
@@ -31,7 +31,7 @@ margin-right:auto;
 
 .boxright
 {height:auto;
-    width:450;
+    width:450px;
     float:right;
     padding:10px;
     margin:5px;
