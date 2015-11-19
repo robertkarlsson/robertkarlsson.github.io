@@ -22,7 +22,7 @@ margin-right:auto;
 }
 
 .boxleft
-{height:500px;
+{height:300px;
     width:450px;
     float:left;
     padding:10px;
@@ -30,7 +30,7 @@ margin-right:auto;
 }
 
 .boxright
-{height:500px;
+{height:300px;
     width:450px;
     float:right;
     padding:10px;
@@ -39,6 +39,8 @@ margin-right:auto;
 
 .sidfot
 {
+    height:50px;
+    width:1000px;
     margin-left:auto;
     margin-right:auto;
     border:solid 1px;
