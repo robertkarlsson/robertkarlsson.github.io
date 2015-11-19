@@ -4,7 +4,7 @@ body {
 }
 p {
     text-align:justify;
-    font-size:1.5em;
+    font-size:1em;
     color:black;
     text:justify;
     line-height:25px;
@@ -37,7 +37,7 @@ h2 {
 }
 .wrapper {
     height:450px;
-    width:1200px;
+    width:990px;
      margin-left:auto;
     margin-right:auto;
     margin-top:5px;
