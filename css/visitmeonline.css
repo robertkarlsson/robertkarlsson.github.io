@@ -2,9 +2,7 @@ body {
     
     background-color:white;
     margin:0;
-    font:"Adobe Devanagari";
-    font-size:1em;
-    text:justify;
+ line-height: 20px; }
       
     
 }
