@@ -2,7 +2,9 @@ body {
     
     background-color:white;
     margin:0;
-    text-style: justify;
+    font:Adobe Devanagari;
+    font-size:large;
+    text:justify;
       
     
 }
@@ -35,17 +37,18 @@ margin-right:auto;
 
 .boxleft
 {height:300px;
-    width:450px;
+    width:500px;
     float:left;
     padding:10px;
-    
+    margin:10px;
 }
 
 .boxright
-{height:300px;
-    width:450px;
+{height:500px;
+    width:500px;
     float:right;
     padding:10px;
+    margin:10px;
     
 }
 
