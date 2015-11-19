@@ -1,0 +1,30 @@
+body {
+    
+    background-color:white;
+    margin:0;
+    text-style: justify;
+      
+    
+}
+.wrapper
+{height:auto;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.boxleft
+{height:auto;
+    width:450;
+    float:left;
+    padding:10px;
+    margin:10px;
+}
+
+.boxright
+{height:auto;
+    width:450;
+    float:right;
+    padding:10px;
+    margin:5px;
+}
