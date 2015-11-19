@@ -24,7 +24,7 @@ h2
 
 .wrapper
 {height:auto;
-    width:1200px;
+    width:1000px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -38,7 +38,7 @@ margin-right:auto;
 }
 
 .boxleft
-{height:500px;
+{height:auto;
     width:350px;
     float:left;
     padding:10px;
@@ -46,7 +46,7 @@ margin-right:auto;
 }
 
 .boxright
-{height:500px;
+{height:auto;
     width:350px;
     float:right;
     padding:10px;
