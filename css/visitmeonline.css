@@ -35,3 +35,40 @@ margin-right:auto;
     padding:10px;
     margin:5px;
 }
+
+.sidfot
+{
+    margin-left:auto;
+    margin-right:auto;
+    border:solid 1px;
+    border-color:#FF6600;
+    background-color:#FF9900;
+}
+
+
+.sidfot
+{
+    margin-left:auto;
+    margin-right:auto;
+    border:solid 1px;
+    border-color:#FF6600;
+    background-color:#FF9900;
+   
+        
+}
+
+.sidfotbutton
+{ background-color:#FF6600;
+font-size: 20px;
+    font-color:black;
+padding: 23px;
+text-shadow: 0px -1px 20px rgba(30, 30, 30, 0.8);
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+
+-webkit-box-shadow: -2px -1px 13px rgba(54, 54, 56, 0.65);
+-moz-box-shadow:    -2px -1px 13px rgba(54, 54, 56, 0.65);
+box-shadow:         -2px -1px 13px rgba(54, 54, 56, 0.65);
+
+}
