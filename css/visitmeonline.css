@@ -2,7 +2,7 @@ body {
     
     background-color:white;
     margin:0;
-    font:Adobe Devanagari;
+    font:"Adobe Devanagari";
     font-size:large;
     text:justify;
       
@@ -10,7 +10,7 @@ body {
 }
 
 h1
-{font:Adobe Devanagari;
+{font:"Adobe Devanagari";
     font-size:xx-large;
 }
 
