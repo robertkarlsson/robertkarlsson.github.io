@@ -3,7 +3,7 @@ body {
     background-color:white;
     margin:0;
     font:"Adobe Devanagari";
-    font-size:large;
+    font-size:medium;
     text:justify;
       
     
@@ -11,12 +11,12 @@ body {
 
 h1
 {font:"Adobe Devanagari";
-    font-size:xx-large;
+    font-size:x-large;
 }
 
 h2
-{font:Adobe Devanagari;
-    font-size:x-large;
+{font:"Adobe Devanagari";
+    font-size:xx-large;
     color:#FF3300;
 }
 
@@ -37,15 +37,15 @@ margin-right:auto;
 
 .boxleft
 {height:500px;
-    width:450px;
+    width:400px;
     float:left;
     padding:10px;
-    margin:10px;
+
 }
 
 .boxright
 {height:500px;
-    width:450px;
+    width:400px;
     float:right;
     padding:10px;
     margin:10px;
