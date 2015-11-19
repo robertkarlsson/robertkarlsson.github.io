@@ -36,8 +36,8 @@ margin-right:auto;
 }
 
 .boxleft
-{height:300px;
-    width:500px;
+{height:500px;
+    width:450px;
     float:left;
     padding:10px;
     margin:10px;
@@ -45,7 +45,7 @@ margin-right:auto;
 
 .boxright
 {height:500px;
-    width:500px;
+    width:450px;
     float:right;
     padding:10px;
     margin:10px;
