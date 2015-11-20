@@ -4,7 +4,7 @@ body {
 }
 p {
     text-align:justify;
-    font-size:1em;
+    font-size:1.3em;
     color:black;
     text:justify;
     line-height:25px;
@@ -79,4 +79,5 @@ img {
      text-align:center;
      padding-top:10px;
      margin:20px;
+     line-height:25px;
 }
