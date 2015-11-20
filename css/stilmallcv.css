@@ -152,7 +152,7 @@ h2
 
 .wrapper
 {
-	width:1200px;
+	width:1000px;
 	height:auto;
 	padding-top:150px;
 	margin-left:auto;
@@ -160,7 +160,6 @@ h2
 
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
-	font-color:black;
 	background-color:white;
 	text-align:justify;
 	background-color : transparent;
@@ -168,15 +167,13 @@ h2
 }
 
 .wrapper2
-{	width:1200px;
+{	width:1000px;
 	height:900px;
-paddin-top:150px;
+	padding-top:150px;
 	margin-left:auto;
 	margin-right:auto;
-
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
-	font-color:black;
 	background-color:white;
 	text-align:justify;
 	background-color : transparent;}
