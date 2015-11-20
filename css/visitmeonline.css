@@ -67,6 +67,7 @@ img {
     text-align:center;
     background-color:orange;
     text-align:center;
+    border-radius:20px;
     
 }
 
@@ -76,4 +77,5 @@ img {
    font-size:20px;
      'Comic Sans MS', cursive;
      text-align:center;
+     padding-top:10px;
 }
