@@ -132,9 +132,8 @@ repeat:no-repeat;
 
 h1
 {
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:x-large;
-	font-color:black;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif #666666;
+	font-size:20px;
 	background-color:white;
 	text-align:justify;
 
@@ -142,9 +141,8 @@ h1
 
 h2
 {
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:x-large;
-	font-color:black;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif #666666;
+	font-size:17px;
 	background-color:white;
 }
 
@@ -201,7 +199,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
-    background-color:gray;
+    background-color:#CCCCCC;
 }
 form div + div {
     margin-top: 10px;
