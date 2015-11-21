@@ -131,18 +131,24 @@ repeat:no-repeat;
 
 
 h1
-{
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif #666666;
-	font-size:20px;
-	background-color:white;
-	text-align:justify;
-
+{font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
 }
 
 h2
 {
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif #666666;
-	font-size:17px;
+
+font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+
 	background-color:white;
 }
 
