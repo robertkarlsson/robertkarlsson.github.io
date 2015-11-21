@@ -131,18 +131,20 @@ repeat:no-repeat;
 
 
 h1
-{font-family: Cherry Cream Soda;
-	font-size: 35px;
+{font-family: "AR Chena"
+	font-size: 30px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+
+	background-color:white;
 }
 
 h2
 {
 
-font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+font-family: "Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif";
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
