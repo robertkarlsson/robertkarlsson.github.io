@@ -45,6 +45,22 @@ h2 {
 
     
 }
+
+.wrapper2
+{
+    background-image=url ("http://i.imgur.com/nO7nFXd.jpg");
+    background-repeat:no-repeat;
+    background-attachment:;
+    background-position:scroll;
+    height:450px;
+    width:990px;
+     margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    padding-bottom:10px;
+    
+}
+
 img {
  margin-left:auto;
  margin-right:auto;
@@ -59,6 +75,16 @@ img {
    
 }
 
+.boxgray
+{
+    height:450px;
+    width:990px;
+     margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    padding-bottom:10px;
+}
+
 .sidfot {
     height:50px;
     width:1000px;
@@ -68,6 +94,9 @@ img {
     background-color:orange;
     text-align:center;
     border-radius:20px;
+    -moz-box-shadow: 5px 5px rgba(0,0,0,0.7);
+-webkit-box-shadow: 5px 5px rgba(0,0,0,0.7);
+box-shadow: 5px 5px rgba(0,0,0,0.7);
     
 }
 
