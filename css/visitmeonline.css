@@ -48,7 +48,7 @@ h2 {
 
 .wrapper2
 {
-    background-image=url ("http://i.imgur.com/nO7nFXd.jpg");
+    background-image= url("http://i.imgur.com/nO7nFXd.jpg");
     background-repeat:no-repeat;
 
     background-position:scroll;
@@ -114,6 +114,8 @@ box-shadow: 5px 5px rgba(0,0,0,0.7);
 
 div.background {
     background: url(http://i.imgur.com/nO7nFXd.jpg) no-repeat;
+    height:1440px;
+    width:1920px;
   
 }
 
@@ -130,3 +132,5 @@ div.transbox p {
     font-weight: bold;
     color: #000000;
     }
+.boximage
+{
