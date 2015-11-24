@@ -62,19 +62,7 @@ font:"Adobe Devanagari";
     
 }
 
-.wrapper2
-{
-    background-image= url(http://i.imgur.com/nO7nFXd.jpg);
-    background-repeat:no-repeat;
-    background-position:scroll;
-    height:450px;
-    width:990px;
-     margin-left:auto;
-    margin-right:auto;
-    margin-top:5px;
-    padding-bottom:10px;
-    
-}
+
 
 img {
  margin-left:auto;
