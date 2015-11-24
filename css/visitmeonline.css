@@ -124,7 +124,7 @@ box-shadow: 5px 5px rgba(0,0,0,0.7);
 }
 
 div.background {
-    background: url(http://i.imgur.com/nO7nFXd.jpg) no-repeat;
+    background: url("http://i.imgur.com/posjT20.jpg") no-repeat;
     height:1440px;
     width:1920px;
     margin-left:auto;
