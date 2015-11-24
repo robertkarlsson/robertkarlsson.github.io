@@ -125,8 +125,8 @@ box-shadow: 5px 5px rgba(0,0,0,0.7);
 
 div.background {
     background: url("http://i.imgur.com/posjT20.jpg") no-repeat;
-    height:1440px;
-    width:1920px;
+    height:920px;
+    width:1280px;
     margin-left:auto;
     margin-right:auto;
     
@@ -146,7 +146,7 @@ div.transbox {
 div.transbox p {
     margin-left:auto;
     margin-right:auto;
-   margin-top:250px;
+    width:920px;
     text:justify;
     padding:10px;
     font-weight: bold;
