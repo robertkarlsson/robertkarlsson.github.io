@@ -123,14 +123,17 @@ div.transbox {
     margin-left:auto;
     margin-right:auto;
     margin-top:500px;
-    padding:150px;
+    padding:15px;
     background-color: #ffffff;
     opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 div.transbox p {
-    margin: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    text:justify;
+    padding:10px;
     font-weight: bold;
     color: #000000;
     }
