@@ -8,7 +8,8 @@ p {
     font-size:1.3em;
     color:black;
     text:justify;
-    line-height:25px;
+    line-height:30px;
+    
 }
 }
 h1 {
@@ -16,6 +17,7 @@ h1 {
     font-size:1.7em;
     text:justify;
       width:400px;
+       line-height:30px;
 }
 h2 {
     font:"Adobe Devanagari";
@@ -25,6 +27,7 @@ h2 {
      margin-left:auto;
     margin-right:auto;
      width:600px;
+      line-height:30px;
    
 }
 
@@ -37,6 +40,7 @@ font:"Adobe Devanagari";
      margin-left:auto;
     margin-right:auto;
       width:1200px;
+       line-height:30px;
 }
 .sidhuvud {
     height:135px;
