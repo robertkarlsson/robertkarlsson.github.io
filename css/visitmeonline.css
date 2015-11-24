@@ -64,7 +64,7 @@ font:"Adobe Devanagari";
 
 .wrapper2
 {
-    background-image= url("http://i.imgur.com/nO7nFXd.jpg");
+    background-image= url(http://i.imgur.com/nO7nFXd.jpg);
     background-repeat:no-repeat;
     background-position:scroll;
     height:450px;
