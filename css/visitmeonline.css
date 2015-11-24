@@ -27,6 +27,8 @@ h2 {
    
 }
 
+h3{
+
 font:"Adobe Devanagari";
     font-size:4em;
     color:#FF3300;
@@ -34,7 +36,7 @@ font:"Adobe Devanagari";
      margin-left:auto;
     margin-right:auto;
      width:600px;
-
+}
 .sidhuvud {
     height:135px;
     width:670px;
