@@ -127,6 +127,9 @@ div.background {
     background: url(http://i.imgur.com/nO7nFXd.jpg) no-repeat;
     height:1440px;
     width:1920px;
+    margin-left:auto;
+    margin-right:auto;
+    
   
 }
 
