@@ -10,8 +10,7 @@ p {
     text:justify;
     line-height:30px;
     
-}
-}
+
 h1 {
     font:"Adobe Devanagari";
     font-size:1.7em;
@@ -52,7 +51,7 @@ font:"Adobe Devanagari";
   
 }
 .wrapper {
-    height:400px;
+    height:600px;
     width:1280px;
      margin-left:auto;
     margin-right:auto;
