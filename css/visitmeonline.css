@@ -47,7 +47,7 @@ font:"Adobe Devanagari";
     background-color:white;
      margin-left:auto;
     margin-right:auto;
-    margin-top:10px;
+
   
 }
 .wrapper {
@@ -55,10 +55,7 @@ font:"Adobe Devanagari";
     width:1000px;
      margin-left:auto;
     margin-right:auto;
-    margin-top:5px;
     padding-bottom:10px;
-
-    
 }
 
 
@@ -71,7 +68,7 @@ img {
     height:350px;
     width:450px;
     float:left;
-    margin-left:70px;
+    padding-left:70px;
    
 }
 
