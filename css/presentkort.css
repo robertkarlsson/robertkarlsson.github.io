@@ -1,0 +1,28 @@
+body{
+	height:100%;
+	width:100%;
+	
+}
+.wrapper
+
+{
+	height:832px;
+	width:1280px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url('../../Documents/My%20Web%20Sites/sunrise-86008_1280.jpg');
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	padding:50px;
+	}
+	
+	p
+	{
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:45px;
+	text:justify;
+	margin-left:auto;
+	margin-right:auto;
+}
