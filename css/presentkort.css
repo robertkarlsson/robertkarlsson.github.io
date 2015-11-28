@@ -1,6 +1,9 @@
 body{
 	height:100%;
 	width:100%;
+	background-image:url("http://i.imgur.com/nsbUC8Y.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 	
 }
 .wrapper
@@ -8,11 +11,6 @@ body{
 {
 	height:832px;
 	width:1280px;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url("http://i.imgur.com/nsbUC8Y.jpg");
-	background-attachment:fixed;
-	background-repeat:no-repeat;
 	margin-left:auto;
 	margin-right:auto;
 	padding:50px;
