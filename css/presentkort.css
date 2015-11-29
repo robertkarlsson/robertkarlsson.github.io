@@ -1,6 +1,6 @@
 body{
 
-	background-color:black;
+	background-color:#000000;
 
 	
 }
@@ -18,7 +18,7 @@ body{
 p
 	{
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:75px;
+	font-size:90px;
 	font-style:center;
 	margin-left:auto;
 	margin-right:auto;
