@@ -1,18 +1,40 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-   <title>Linda Seitzberg</title>
- 
-               <link href="css/stilmallcv.css" rel="stylesheet" type="text/css">
-                <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-                    <link href="css/rosaknapparmeny.css" rel="stylesheet" type="text/css">
-            <link href="css/artikel.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $("#p1").animate({marginLeft: "+=450px"});
+    });
+    $(".btn2").click(function(){
+        $("#p1").animate({marginLeft: "-=450px"});
+    });
+});
+
+
+</script>
+
+<link href="infographic2.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-<div class="wrapper">
-<img src="http://share.pho.to/9tVG0/original"/>
+<div class="sidhuvud"><h1>En resa genom Linda Seitzbergs erfarenheter</h1>
+<button class="btn2">Backa</button><button class="btn1">Framåt</button>
 </div>
+
+
+<div class="wrapper">
+
+<p id="p1" class="p1">
+<img src="littlebikestring.gif"/>
+<img src="programkunskaper.jpg"/>
+<img src="sprak.jpg"/>
+<img src="kodkunskaper.jpg"/>
+<img src="family.jpg"/>
+  </p>
+
+</div>
+
 </body>
 </html>
+
