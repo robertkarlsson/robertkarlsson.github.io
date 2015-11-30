@@ -1,0 +1,123 @@
+body{
+	
+    
+}
+
+.sidhuvud
+{
+	height:100px;
+	width:1200px;
+	position:top;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+h1
+{
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size:25px;
+	letter-spacing:7px;
+	
+	
+}
+
+.box
+{
+	height:75px;
+	width:100px;
+	float:right;
+}
+
+.wrapper
+{
+	background-image:url("http://i.imgur.com/xmHHflP.jpg?1");
+    background-position:cover;
+    position:fixed;
+    height:600px;
+    width:3500px;
+    background-repeat:repeat-x;
+    margin-left:auto;
+    margin-right:auto;
+   
+    
+    
+}
+
+img {
+    margin-bottom:350px;
+    float:right;
+    padding-right:0px;
+    
+    }
+    
+
+
+.btn1
+{
+	background-color:white;
+	height:50px;
+	width:120px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:25px;
+	padding:10px;
+
+	
+
+	
+	
+	}
+
+.btn2
+{
+	background-color:white;
+	height:50px;
+	width:80px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:25px;
+	padding:10px;
+
+}
+.btn2
+{
+	background-color:white;
+	height:50px;
+	width:80px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:25px;
+	padding:10px;
+
+}
+
+
+
+
+.p1
+{
+	height:200px;
+	width:2000px;
+	margin-top:100px;
+	margin-left:-1800px;
+	background-color:transparent;
+	
+}
+
+.main
+{
+	height:200px;
+	width:2000px;
+border:thin black;
+	background-color:transparent;
+	
+}
+
+
+.sidfot
+{
+	height:100px;
+	width:auto;
+	margin:0;
+	
+}
+
