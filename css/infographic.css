@@ -128,8 +128,8 @@ border:thin black;
      background-image:url("http://i.imgur.com/GtId0JU.jpg");
      background-repeat:no-repeat;
      float:left;
-     height:236px;
-     width:133px;
+      height:133px;
+     width:236px;
      background-color:transparent;
     
 
@@ -139,8 +139,7 @@ border:thin black;
      background-image:url("http://i.imgur.com/P8doShs.jpg")
       background-repeat:no-repeat;
      float:left;
-      height:236px;
-     width:133px;
+     
      background-color:transparent;
 }
 
