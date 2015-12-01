@@ -126,6 +126,7 @@ border:thin black;
      height:50px;
      display:block;
      background-image:url("http://i.imgur.com/GtId0JU.jpg");
+     background-repeat:no-repeat;
      float:left;
      height:193px;
      width:84px;
@@ -135,6 +136,7 @@ border:thin black;
 
 .myImage:hover {
      background-image:url("http://i.imgur.com/P8doShs.jpg")
+      background-repeat:no-repeat;
      float:left;
       height:236px;
      width:133px;
