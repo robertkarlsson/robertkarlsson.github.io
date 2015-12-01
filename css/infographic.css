@@ -136,10 +136,9 @@ border:thin black;
 }
 
 .myImage:hover {
-     background-image:url("http://i.imgur.com/P8doShs.jpg")
-      background-repeat:no-repeat;
+     background-image:url("http://i.imgur.com/P8doShs.jpg");
+     background-repeat:no-repeat;
      float:left;
-     
      background-color:transparent;
 }
 
