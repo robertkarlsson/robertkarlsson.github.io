@@ -126,10 +126,17 @@ border:thin black;
      height:50px;
      display:block;
      background-image:url("http://i.imgur.com/GtId0JU.jpg");
+     float:left;
+     height:193px;
+     width:84px;
+    
 
 }
 
 .myImage:hover {
      background-image:url("http://i.imgur.com/P8doShs.jpg")
+     float:left;
+      height:236px;
+     width:133px;
 }
 
