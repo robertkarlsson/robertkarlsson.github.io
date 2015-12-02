@@ -16,9 +16,10 @@ body{
 
 h1
 {
-	font-family:""Lucida Sans, "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-family:""Lucida Sans, "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif ##FF3300;
 	font-size:25px;
-	letter-spacing:7px;
+	letter-spacing:5px;
+	font-style:center;
 	
 	
 }
