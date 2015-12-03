@@ -150,6 +150,7 @@ border:thin black;
 .modalDialog {
 	position: fixed;
 	font-family: Arial, Helvetica, sans-serif;
+	text:justify;
 	font-size:18px;
 	top: 0;
 	right: 0;
@@ -172,7 +173,7 @@ border:thin black;
 }
 
 .modalDialog > div {
-	width: 500px;
+	width: 600px;
 	position: relative;
 	margin: 10% auto;
 	padding: 5px 20px 13px 20px;
