@@ -173,7 +173,8 @@ img {
 }
 
 .modalDialog > div {
-	width: 500px;
+	width: 400px;
+	height:auto;
 	position: relative;
 	margin: 2% auto;
 	padding: 5px 20px 13px 20px;
