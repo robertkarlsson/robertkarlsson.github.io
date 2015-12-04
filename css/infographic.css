@@ -111,7 +111,7 @@ img {
 {
 	height:200px;
 	width:2000px;
-border:thin black;
+	border:thin black;
 	background-color:transparent;
 	
 }
@@ -182,6 +182,7 @@ border:thin black;
 	background: -moz-linear-gradient(#fff, #999);
 	background: -webkit-linear-gradient(#fff, #999);
 	background: -o-linear-gradient(#fff, #999);
+	overflow: scroll;
 }
 
 
