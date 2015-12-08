@@ -160,22 +160,21 @@ font-family: "Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif"
 {
 	width:1000px;
 	height:auto;
-	padding-top:150px;
+	padding-top:50px;
 	margin-left:auto;
 	margin-right:auto;
-
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
 	background-color:white;
 	text-align:justify;
-	background-color : transparent;
+	background-color: transparent;
 	
 }
 
 .wrapper2
 {	width:1000px;
 	height:900px;
-	padding-top:150px;
+	padding-top:50px;
 	margin-left:auto;
 	margin-right:auto;
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
