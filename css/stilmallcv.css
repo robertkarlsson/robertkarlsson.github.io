@@ -199,8 +199,7 @@ border-left:1px silver;}
 form {
   
     margin-top:50px;
-    margin-left:auto;
-    margin-right:auto;
+    float:right;
     width: 400px;
     height:500px;
     padding: 1em;
