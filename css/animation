@@ -1,0 +1,8 @@
+
+
+#foot {
+position:fixed;
+bottom:0;
+}
+}
+#balloon1 {background-image:url('Javascript-skola/Infographic/ballong2.jpg');}
