@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js">
+<script>
+$(document).ready(function() {
+	function animateMe(el, startStyle, endStyle, duration, repeat){
+		timeouts.push(setTimeout(function(){animateMe(el, startStyle, endStyle, duration, repeat);}, repeat));
+		el.css(startStyle);
+		el.animate(endStyle, duration, 'linear');
+  }   
+  function animateTwoWay(el, startStyle, endStyle, duration, pause){
+		rep = pause*2 + duration*2
+		timeouts.push(setTimeout(function(){animateTwoWay(el, startStyle, endStyle, duration, pause);}, rep));
+		el.css(startStyle);
+		el.animate(endStyle, duration, 'linear').delay(pause);
+		el.animate(startStyle, duration, 'linear').delay(pause);
+  }
+  function startAnimation(){
+		animateTwoWay($('#balloon1'),{bottom: 350}, {bottom: 125}, 35000, 7000);
+		animateTwoWay($('#balloon2'),{bottom: 450}, {bottom: 200}, 25000, 5000);
+		animateMe($('#nearclouds'),{right: w}, {right: -1268}, 100000, 103000);
+		animateMe($('#farclouds'),{right: w}, {right: -1068}, 150000, 153000);
+		animateMe($('#plane'),{left: w}, {left: -606}, 50000, 53000);
+  }
+  function stopAnimation(){
+		$("body").find('*').stop(true, true);
+		console.log(timeouts.length);
+		for (var i=0; i<timeouts.length; i++) {
+			clearTimeout(timeouts[i]);
+		}
+		$("#plane, #balloon1, #balloon2, #nearclouds, #farclouds").removeAttr('style');
+  }
+  $('#onoff').on("click", function() {
+  if(toggleState) {
+		$.cookie('animationStatus', 'on', { expires: 365, path: '/' });
+		$("#onoff span").text("ON").addClass("on");
+    startAnimation();
+  } else {
+		$.cookie('animationStatus', 'off', { expires: 365, path: '/' });
+		$("#onoff span").text("OFF").removeClass("on");
+    stopAnimation();
+  }
+  toggleState = !toggleState;
+  });
+	var t1, t2;
+	var timeouts = [];
+  var w = $(document).width()
+	var animationStatus = $.cookie('animationStatus');
+	if (animationStatus == null || animationStatus == "on"){
+		var toggleState = false;
+		$("#onoff span").text("ON").addClass("on");
+		startAnimation();  
+	} else{
+		var toggleState = true;
+	}
+});
+</script>
+</head>
+
+<body>
+
+
+<div id="foot">
+
+
+<span id="balloon1">en ballong</span>
+
+ </div>
+</body>
+
+</html>
