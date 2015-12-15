@@ -55,7 +55,6 @@ margin-right:auto;
     float:center;
     padding:10px 20px;
     margin-left:40px;
-    
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
@@ -69,11 +68,12 @@ margin-right:auto;
 .menu li:hover .sub-menu {
     z-index:1;
     opacity:1;
+    
 }
  
 .sub-menu {
     width:160%;
-    padding:5px 0px;
+    padding:20px 0px;
     position:absolute;
     top:100%;
     left:0px;
