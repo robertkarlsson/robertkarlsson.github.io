@@ -53,13 +53,16 @@ margin-right:auto;
  
 .menu > ul > li > a {
     float:center;
-    padding:10px 50px;
+    padding:10px 20px;
+    margin-left:40px;
+    
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
 }
  
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
     background:#2e2728;
+    
 }
  
 /*----- Bottom Level -----*/
