@@ -1,0 +1,70 @@
+body {
+    background-color:white;
+    background-position:center;
+}
+p {
+    text-align:justify;
+    font-size:1.5em;
+    color:black;
+    text:justify;
+    line-height:25px;
+}
+}
+h1 {
+    font:"Adobe Devanagari";
+    font-size:1.7em;
+    text:justify;
+      width:400px;
+}
+h2 {
+    font:"Adobe Devanagari";
+    font-size:1.5em;
+    color:#FF3300;
+    text-align:center;
+     margin-left:auto;
+    margin-right:auto;
+     width:600px;
+   
+}
+.sidhuvud {
+    height:135px;
+    width:670px;
+    background-color:white;
+     margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+  
+}
+.wrapper {
+    height:550px;
+    width:990px;
+     margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    padding-bottom:10px;
+
+    
+}
+img {
+ margin-left:auto;
+ margin-right:auto;
+}
+.litenbox {
+    height:420px;
+    width:475px;
+    float:left;
+    padding:10px;
+    float:left;
+    margin-top:35px;
+   
+}
+
+.sidfot {
+    height:50px;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color:orange;
+    text-align:center;
+}
