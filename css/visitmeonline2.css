@@ -4,7 +4,7 @@ body {
 }
 p {
     text-align:justify;
-    font-size:1.5em;
+    font-size:1.2em;
     color:black;
     text:justify;
     line-height:25px;
@@ -22,7 +22,7 @@ h2 {
     font-size:1.5em;
     color:#FF3300;
     text-align:center;
-    padding-left:100px;
+    padding-left:25px;
     width:600px;
      
    
