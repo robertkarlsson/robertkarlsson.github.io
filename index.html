@@ -9,28 +9,7 @@
     <link rel="stylesheet" href="css/stilmallcv.css">
  
  
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/typed.js" type="text/javascript"></script>
-    <script>
-    $(function(){
-        $("#typed").typed({
-            stringsElement: $('#typed-strings'),
-            typeSpeed: 30,
-            backDelay: 500,
-            loop: false,
-            contentType: 'html', 
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
-    });
-    function newTyped(){ /* A new typed object */ }
-    function foo(){ console.log("Callback"); }
-    </script>
- 
+  
  
 </head>
 
@@ -50,27 +29,19 @@
         </ul>
     </nav>
 </div>
-</div><div class="wrapper">
+</div>
+<div class="wrapper">
+    </br>
+    </br>
+    </br>
 <img alt ="citat" src="http://i.imgur.com/Ml1uhVY.jpg?1" align="left" padding-top="100px"/>
 <img alt="brainusability" src="http://i.imgur.com/f45tk7H.jpg?1" padding-top="100px"/>
-
-
-
-
 
 
 <a href="https://knifedge.wordpress.com/tag/brain-thinking/" align="right" >Reference </a>
 
 </div>
-<div class="type-wrap">
-  </br>
-            <div id="typed-strings">
-                <p>Hello!</p>
-                <p>I´m learning Javascript...</p>
-                <p>and I´m loving it</p>
-            
-            </div>
-            </div>
+
 </body>
 
 </html>
