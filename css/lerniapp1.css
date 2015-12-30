@@ -10,10 +10,16 @@ h1
 
 font-family:Arial, Helvetica, sans-serif;
 font-size:40px;
-
-
-
 	
+}
+
+.wrapper
+{
+	height:700px;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
 }
 
 
@@ -52,4 +58,28 @@ img
 	margin-left:auto;
 	margin-right:auto;
 	padding-left:50px;
+}
+input[type=checkbox] {
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+    background: url(http://2012.igem.org/wiki/images/7/79/Small-checkmark.png) center no-repeat;
+}
+
+
+.label
+{
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:large;
+}
+img#blr
+{
+	width:40px;
 }
