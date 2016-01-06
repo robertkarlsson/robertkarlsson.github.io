@@ -309,3 +309,69 @@ padding-left:10px;
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+.wrapper2
+{ height:1050px;
+width:1200px;	
+margin-bottom:15px;
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+
+
+	
+	
+}
+.boxleft
+{
+	height:700px;
+	width:600px;
+	border-right:2px silver solid;
+	border-right-color:silver;
+	padding:10px;
+	text-align:justify;
+	float:left;
+		}
+.boxright
+{
+	height:700px;
+	width:550px;
+	padding-left:10px;
+	text-align:justify;	
+	float:right;
+
+}
+
+img {
+	float:right;
+	padding-bottom:0px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:10px;
+}
+
+
+
+rubrik1
+{
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size:large;
+	line-height: 1.25;
+	margin-bottom:3px;
+}
+
+rubrik2
+{
+	font-family:"Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-size:large;
+	line-height: 1.25;
+	margin-bottom:3px;
+
+}
+
+em {
+	color:#333333;
+}
+
+link {color:gray;
+}
