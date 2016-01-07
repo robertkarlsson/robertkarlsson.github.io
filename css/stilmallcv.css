@@ -426,7 +426,7 @@ small {
 .mobile-menu ul li a{
 	display: block;
 	padding-left: 15px;
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 .mobile-menu.open {
