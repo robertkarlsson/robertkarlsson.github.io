@@ -459,8 +459,10 @@ small {
 .imgholder
 {height:auto
 width:900px;
+margin-top:150px;
 margin-right:auto;
 margin-left:auto;
+
 }
 
 
