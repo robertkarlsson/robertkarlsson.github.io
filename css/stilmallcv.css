@@ -433,6 +433,7 @@ small {
 }
 .mobile-menu.open {
 	width: 40%;
+	position:fixed;
 }
 .mobile-menu-btn {
 	display: inline-block;
