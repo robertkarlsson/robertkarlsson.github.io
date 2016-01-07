@@ -13,12 +13,7 @@ body
 
 }
 
-.img1
-{float:none;
-margin-left:auto;
-margin-right:auto;
 
-}
 
   /*här börjar min meny*/
 .huvudmeny
@@ -142,7 +137,7 @@ img
 	height:auto;
 	width:auto;
 	padding-left:5px;
-	float:left;
+
 	
 }
 
