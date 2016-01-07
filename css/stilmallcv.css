@@ -2,8 +2,8 @@ body
 {
 	background-color:white;
 	background-image:url("http://i.imgur.com/4o8YMvJ.jpg");
-	background-position:center fixed;
-	background-repeat:no repeat;
+	background-position:fixed center;
+	background-repeat:no-repeat;
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
 	font-color:black;
