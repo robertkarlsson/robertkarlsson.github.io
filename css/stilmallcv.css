@@ -455,3 +455,10 @@ small {
 .open .top-logo-mobile {
 	opacity: 1;
 }
+
+.imgholder
+{height:auto
+width:900px;
+margin-right:auto;
+margin-left:auto;
+}
