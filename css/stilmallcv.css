@@ -91,6 +91,7 @@ p {
 	background-color:white;
 	text-align:justify;
 	line-height:150%;
+	background-color:white;
 }
 
 
@@ -103,6 +104,7 @@ p {
     margin-bottom: 10px;
     margin-top: 5px;
     color: black;
+    background-color:white;
 }
 
 .sidhuvud
@@ -178,6 +180,7 @@ h5
 	padding:2px;
 	margin-top:10px;
 	margin-left:20px;
+	background-color:white;
 	
 	
 }
@@ -196,34 +199,26 @@ h5
 	font-size:large;
 	background-color:white;
 	text-align:justify;
-	background-color: transparent;
+background-color:white;
 	
 }
 
-.wrapper2
-{	width:9000px;
-	height:900px;
-	padding-top:50px;
-	margin-left:auto;
-	margin-right:auto;
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:large;
-	background-color:white;
-	text-align:justify;
-	background-color : transparent;}
 
 box {
 	width:700px;
 	height:auto;
 	margin-left:0px;
 	margin-right:10px;
+	background-color:white;
 }
 
 .box1
 { width:auto;
 height:auto;
 padding:15px;
-border-left:1px silver;}
+border-left:1px silver;
+	background-color:white;
+}
 
 form {
   
@@ -334,6 +329,7 @@ margin-top:15px;
 	padding:10px;
 	text-align:justify;
 	float:left;
+	background-color:white;
 		}
 .boxright
 {
@@ -342,6 +338,7 @@ margin-top:15px;
 	padding-left:10px;
 	text-align:justify;	
 	float:right;
+	background-color:white;
 
 }
 
@@ -361,6 +358,7 @@ rubrik1
 	font-size:large;
 	line-height: 1.25;
 	margin-bottom:3px;
+	background-color:white;
 }
 
 rubrik2
@@ -369,11 +367,13 @@ rubrik2
 	font-size:large;
 	line-height: 1.25;
 	margin-bottom:3px;
+	background-color:white;
 
 }
 
 em {
 	color:#333333;
+	background-color:white;
 }
 
 link {color:gray;
