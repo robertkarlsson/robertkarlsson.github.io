@@ -439,6 +439,8 @@ small {
 	cursor: pointer;
 	font-size: 20px;
 	color: #black;
+		background-color:white;
+
 	z-index: 99;
 	background-image:url("http://i.imgur.com/luRyKnr.png");
 }
