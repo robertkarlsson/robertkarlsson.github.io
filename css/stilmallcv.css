@@ -483,3 +483,13 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
 }
+.menu-wrap {
+    width:100%;
+    height:70px;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:white;
+    border-bottom:thin gray;
+    position:fixed;
+margin-left:auto;
+margin-right:auto;
+}
