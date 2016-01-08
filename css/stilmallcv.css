@@ -429,6 +429,7 @@ small {
 .mobile-menu.open {
 	width: 40%;
 	position:fixed;
+
 }
 .mobile-menu-btn {
 	display: inline-block;
@@ -439,6 +440,7 @@ small {
 	font-size: 20px;
 	color: #black;
 	z-index: 99;
+	background-image:url("http://i.imgur.com/luRyKnr.png");
 }
 .mobile-menu-btn:after {
 	content: "\f0c9";
