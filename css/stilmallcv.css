@@ -12,6 +12,12 @@ body
 	margin:0;
 
 }
+.smoothScroll {
+  text-decoration: none;
+    font-family: Segoe UI;
+  margin: 24px;
+}
+
 
 .wrapper
 {
@@ -60,7 +66,7 @@ padding:10px;
 {
 	height:600px;
 	width:1200px;
-	margin-top:1250px;
+	margin-top:1300px;
 	margin-left:auto;
 	margin-right:auto;
 	border:thin solid black;
@@ -316,11 +322,11 @@ border-left:1px silver;
 }
 
 form {
-  
+     width: 400px;
+    height:400px;
     margin-top:50px;
-    float:right;
-    width: 400px;
-    height:350px;
+     margin-left:auto;
+    margin-right:auto;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
@@ -328,6 +334,8 @@ form {
 }
 form div + div {
     margin-top: 10px;
+    margin-left:auto;
+    margin-right:auto;
 }
 label {
 
@@ -463,11 +471,6 @@ link {color:gray;
 }
 
 
-.smoothScroll {
-  text-decoration: none;
-    font-family: Segoe UI;
-  margin: 24px;
-}
 .title {
   text-decoration: none;
     font-family: Segoe UI;
@@ -499,7 +502,7 @@ small {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-size: 15px;
+	font-size: 20px;
 }
 .mobile-menu ul li a{
 	display: block;
@@ -508,7 +511,7 @@ small {
 	text-decoration: none;
 }
 .mobile-menu.open {
-	width: 40%;
+	width: 30%;
 	position:fixed;
 
 }
@@ -545,7 +548,7 @@ small {
 
 .imgholder
 {height:auto;
-width:900px;
+width:00px;
 margin-top:150px;
 margin-right:auto;
 margin-left:auto;
@@ -554,12 +557,19 @@ margin-left:auto;
 
 
 div.transbox {
- margin-top:150px;
+	height:250px;
+	width:400px;
+	float:none;
+	margin-top:150px;
   margin-left:auto;
   margin-right:auto;
   background-color: #ffffff;
   opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
+  filter: alpha(opacity=60); 
+  text-align:center;
+  padding:35px;
+  font-family:"Tangerine";
+  font-size:30px;
 }
 
 div.transbox p {
@@ -578,6 +588,8 @@ margin-left:auto;
 margin-right:auto;
 }
 
+
+.short
 {
 	height:370px;
 	width:700px;
@@ -588,6 +600,8 @@ margin-right:auto;
 	font-size:30px;
 	color:purple;
 	display:block;
+
+	
 }
 
 .boxliten
@@ -609,3 +623,20 @@ margin-right:auto;
 	font-size:15px;
 }
 
+
+
+.sidfot
+
+{
+	height:75px;
+	background-color:black;
+	width: 100%;
+	height: 350px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	text-align:center;
+	font-color: white;
+	color: #FFFFFF;
+	margin: 0;
+	background-color: black;
+	
+}
