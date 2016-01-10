@@ -5,14 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
    <title>Linda Seitzberg</title>
-      <link href="css/nymeny.css" rel="stylesheet" type="text/css">
-     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+   <link href="mobilmeny.css"
+     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine"/>
+    <link rel="stylesheet" type="text/css" href="http://www.google.com/webfonts/family?family=Maven+Pro"/>
  <link rel="stylesheet" href="css/stilmallcv.css" type="text/css">
  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="smoothscroll.js"></script>
  <script src="jquery-latest.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
 <script src="scripts.js" type="text/javascript"></script>
+
 
 
 <script>
@@ -24,13 +26,9 @@ jQuery(document).ready(function($) {
 	var eventhandler = function(e) {
 	   e.preventDefault();      
 	}
-
-
 	window.addEventListener("orientationchange", function() {
 		getWidth();
 	}, false);
-
-
 	function getWidth(){
 		var width = $(window).width();
 		width = width * 0.9; // 90%
@@ -40,7 +38,6 @@ jQuery(document).ready(function($) {
 	}
 	$('.mobile-menu-btn').click(function(e) {
 		getWidth();
-
 		$('.mobile-menu').toggleClass('open');
 		$(this).toggleClass('open');
 		if (preventScrolling === false) {
@@ -61,47 +58,35 @@ jQuery(document).ready(function($) {
 <div class="mobile-menu-btn"></div></div>
 <div class="mobile-menu">
 	<div class="inner">
-	<ul><li class="current-item"><a href="doing.html">Portfolio <span class="arrow">&#9660;</span></a>
-    	<li><a href="#me">A1 Presentera dig själv!</a></li>
-    	<li><a href="#Inlämning 1" class="smoothScroll">A2 Webben om 5 år</a></li>
+	<ul>
+	<li><a href="#me" class="smoothScroll">Presentation</a></li>
+    <li><a href="#Inlämning 1" class="smoothScroll">A2 Webben om 5 år</a></li>
 	<li><a href="#Inlämning A3" class="smoothScroll">A3 Yrkesrollen</a></li>
-	<li><a href="#Inlämning 2" class="smoothScroll">B1 Struktur - html</a></li>
-	<li><a href="#Inlämning 3" class="smoothScroll">B2 Presentation - CSS</a></li>
+	<li><a href="#Inlämning 2" class="smoothScroll">B1/B2 HTML/CSS</a></li>
 	<li><a href="#Inlämning 4" class="smoothScroll">B3 webbsida utan ramverk</a></li>
-	<li><a href="#Inlämning 5" class="smoothScroll">B4 webbsida med ramverk</a></li>
 	<li><a href="#Inlämning 6" class="smoothScroll">B5 Infographic</a></li>
-	<li><a href="#Inlämning 7" class="smoothScroll">Present till pappa</a></li>
-            <li><a href="#kognitionsvetenskap" class="smoothScroll">Cognitive Science</a></li>
-             	<li><a href="#Lernia" class="smoothScroll">Educataion now: Lernia, Stockholm</a></li>
-    	<li><a href="#HIS" class="smoothScroll">Education before: University of Skövde</a></li>
-    	<li><a href="#MDH" class="smoothScroll">Education before: Mälardalen University</a></li>
-               <li> <a href="#contact" class="smoothScroll">Contact me</a></li>
+	<li><a href="#kognitionsvetenskap" class="smoothScroll">Cognitive Science</a></li>
+     <li><a href="#Lernia" class="smoothScroll">Educataion now: Lernia, Stockholm</a></li>
+    <li><a href="#HIS" class="smoothScroll">Education before: University of Skövde</a></li>
+    <li><a href="#MDH" class="smoothScroll">Education before: Mälardalen University</a></li>
+    <li> <a href="#contact" class="smoothScroll">Contact me</a></li>
           
         </ul>		
 	</div>
 </div>
-
 <div class="transbox"> 
 <div style="align: center">
-<img src="http://i.imgur.com/Ml1uhVY.jpg?1" class="image1"/></div>
+<img src="http://i.imgur.com/Ml1uhVY.jpg?1" class="image1"/>
+</div>
 
 </div>
 
-</br>
-<div class="wrapper2">
-  
- 
-       </div>    
-           <div class="wrapper">
-           	<a name="me" class="smoothScroll">Presentation</a>
-            	  </br>
-  
-        
-       <iframe id="vp1KNqxQ"  title="Video Player"  width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1441964844&f=KNqxQRxswVMI4mmIsHOnWQ&d=0&m=p&r=360&volume=100&start_res=360p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" align="left" margin-right="15px" margin-bottom="15px" allowfullscreen></iframe>
-	<p class="paddingtext">
-	 I did a movie that shows how much my family represents my personality.
-         However, I haven´t much pictures of myself because it´s (almost) always me who is behind the camera.</p>
-       <p class="paddingtext">I´m dedicated to HCI - Human Computer Interaction and Cognitive Science. 
+
+    
+   
+       <div class="wrapper3">  
+    <a name="me" class="smoothScroll"></a>
+    <p>I´m dedicated to HCI - Human Computer Interaction and Cognitive Science. 
         I´ve always wanted to work with people and computer, so what is better than to be an cognitiv scientist and a future FrontEnd developer? 
          Many people wonder if Cognitive Science is similar to the behavioral sciences,
          and it would be easiest to describe it as we study human from different angles. I´ve got knowledge of how
@@ -111,25 +96,26 @@ jQuery(document).ready(function($) {
          like to design IT-systems with usability experience in focus and make easy-to-use systems. It´s very often
          the company has one picture of its own system, how it works and process but the customer/user has another
          one from its own perception and representations model. Find more information about Cognitive Science in my menu. </p>
-         <p>Besides my studies</p>
-         <p><strong>Short facts:</strong></p>
+         	 I did a movie that shows how much my family represents my personality.
+         However, I haven´t much pictures of myself because it´s (almost) always me who is behind the camera.</p>
+         <iframe id="vp1KNqxQ"  title="Video Player"  width="432" height="243" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1441964844&f=KNqxQRxswVMI4mmIsHOnWQ&d=0&m=p&r=360&volume=100&start_res=360p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" align="left" margin-right="15px" margin-bottom="15px" allowfullscreen></iframe>
+	<div class="short"><strong>Short facts:</strong>
          <ul>
          	<li><strong>Name:</strong> Linda Seitzberg</li>
          	<li><strong>Lives: </strong> in a small village outside Västerås</li>
          	<li><strong>Family:</strong> Husband, three children (8, 6, 4) and a Viszla.</li>
-         	<li><strong>Hobbies:</strong> Loves to create new projects (inside/outside/the house, design or plan a tripp)</li>
-         	
-         	
-         	
+         	<li><strong>Hobbies:</strong> Loves to create new projects (inside, outside, on the house, design or plan a tripp)</li>
+   
          </ul>
+         </div>
        
 	   
 </div>
    
-</br>
-<div class="wrapper">
-	<a name="Inlämning 1" class="smoothScroll">	<h2> Webben om 5 år</h2></a>
+<a name="Inlämning 1" class="smoothScroll">	</a>
+<div class="wrapper">	
 
+<h2> Webben om 5 år</h2>
 <p>Med tanke på att människan alltid utvecklas kommer också webben att fortsätta utvecklas. 
 Från att hugga i sten till gåspenna och papyrus, till idag med otroliga möjligheter för en enskild
 individ kunna dela information till hela världen genom webben. Endast fantasin sätter gränser,
@@ -160,7 +146,7 @@ en förprogrammering ske där slutresultatet bli att peka och klicka, en välj-s
 där någon måste ha kodat programmet. </p>
 <a href="#top">Gå till toppen av sidan</a>
 </div>
-<hr>
+
 
 <div class="wrapper2">
 	<a name="Inlämning A3" class="smoothScroll"> <h1 class="rubrik1">Uppgift - skriv en artikel om en FrontEnd-utvecklare.</h1></a>
@@ -190,8 +176,7 @@ där någon måste ha kodat programmet. </p>
   som gör att användaren kan interagera med det visuella, det kan vara en knapp, möjligheten till att se något röra sig eller att kunna spela spel tex. </p> 
  </div>
   <div class="boxright">
- <br/>
- <div style="align: right"> <img src="http://38.media.tumblr.com/avatar_18c8fa17b601_128.png"/></div><h2>Möte med en fullstacker FrontEnd!</h2>
+ 	 <h2>Möte med en fullstacker FrontEnd!</h2>
     
   <p class="artikel"> Jag har haft äran att träffa <a href="http://peter.orneholm.com/">Peter Örnholm </a> som arbetar som FrontEnd-utvecklare.
    Peter arbetar som konsult och har många års erfarenhet som programmerare.
@@ -221,53 +206,42 @@ där någon måste ha kodat programmet. </p>
 </p>
 <p class="artikel">För oss som är nya med JavaScript tipsar Peter om länken <a href="http://mrdoob.com/">http://mrdoob.com/</a>. Den visar verkligen vad
 man kan göra med JScript och vilka möjligheter som finns att ta vara på. Mycket glädjande för en student att se. </p>
-
- <a href="#top">Gå till toppen av sidan</a>
- <hr>
+  <a href="#top">Gå till toppen av sidan</a>
 </div>
+
+
+
  </div>
-
-<div class="wrapper">
-	<a name="Inlämning 2" class="smoothScroll">B_1 HTML Struktur </a>
-<h2>Visa struktur i form av ett html-dokument.</h2>
-<p>
- Den här uppgiften syftar till att kunna skriva html-kod och kunna länka två html-sidor. Uppgiften bestod av ett recept.
- Bilderna jag har valt att skapa och använda för denna design är:</p>
- <img alt="intressantfaktaruta" longdesc="www.pixabay.com" src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/12003979_10154240903734829_3179296273071535647_n.jpg?oh=b86069fa40d9b343b01aa006dfb83ebb&oe=5697C11D" />
- <img alt="appelkaka" longdesc="www.pixabay.com" src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12046813_10154240903184829_2026470216019799117_n.jpg?oh=39218c1d74b211b7f234fdaa071376e9&oe=56A98BAB" /><br/>
-
- <a href="inlamning2.html" class="smoothScroll">Resultat av uppgiften </a></p>
-  <a href="#top">Gå till toppen av sidan</a>
- 
-
-    </div>
- </br>
- <div class="wrapper">
-<a href="recept.html"><img src="http://i.imgur.com/v4d3qgI.png?1"/></a><a name="Inlämning 3" class="smoothScroll"> B_2 CSS - Individuell</a>
-<h2>Använd CSS-kod, stylesheet.</h2>
-  <p> Den här uppgiften syftar till att kunna använda css-kod för att ge ett utseende till html-koden från uppgift B1
- byggd på tidigare uppgiften B1.</p>
- 
- <p>Motiveringar för vald layout:</p> 
- <h2>Färg och form</h2>
- <p>Jag tänker mig att bakning hör till rutiga dukar, bakverk och pastellfärger. Därav valde jag att använda mig av rosa border</p>
- <h2>Struktur</h2>
- <p>Jag gjorde fel första gången och missade att det skulle vara två html-sidor. Här var min tidigare design: <a href="recept.html">Klicka</a>
- Min tanke var att genom att få plats med så mycket, så ville jag använda "intressant fakta" som en bild som sticker ut likt "Visste du att" för att locka
- användaren så att ögat ser det. En användare kan inte urskilja text och allt finns i en klump, därav måste texten delas upp. I nästa försök blev resultatet så här:</p>
- <a href="recept.html">Faktiska inlämningsuppgiften</a>
- <p>I den faktiska inlämningsuppgiften, som ska bestå av två html-sidor, har jag valt att dela upp information om kakan, dess historia, och receptet till html-sida 2.</p>
-  <a href="#top">Gå till toppen av sidan</a>
-
+ <div class="wrapper4">
+					<div class="boxliten">
+						<a name="Inlämning 2" class="smoothScroll">B_1 HTML Struktur </a>
+						<h2>Visa struktur i form av ett html-dokument.</h2>
+							<p class="">Den här uppgiften syftar till att kunna skriva html-kod och kunna länka två html-sidor. 
+							Uppgiften bestod av ett recept.
+ 							</p>
+ 								<a href="inlamning2.html" class="smoothScroll"></a>
+ 						</div>
+				
+ 		<div class="boxliten">
+		<a name="Inlämning 3" class="smoothScroll"> B_2 CSS - Individuell</a>
+		<h2>Använd CSS-kod, stylesheet.</h2>
+ 		 <p class="text1"> Den här uppgiften syftar till att kunna använda css-kod för att ge ett utseende till html-koden från uppgift B1
+ 			byggd på tidigare uppgiften B1.</p>
+			
+ 			
+</div> <a href="recept.html"><img src="http://i.imgur.com/v4d3qgI.png?1"></a>
 </div>
-</br>
 
 
-<div class="wrapper">
-	 <img src="http://i.imgur.com/R9DTMpc.jpg"/><a name="Inlämning 4" class="smoothScroll">B_3 Webbsida Utan Ramverk - Grupp </a>
+		<a name="Inlämning 4" class="smoothScroll"></a>				
+<div class="wrapper5">
+
+
+	<img src="http://i.imgur.com/R9DTMpc.jpg" />
 	<h2>Grupparbete - skapa affärsidé, logotyp, grafisk form och utveckla en hemsida. </h2>
- <p> <h2>Arbetssätt </h2>
-I uppgift B_3 och B_4 ska ni arbeta utifrån projektmetodiken Scrum. 
+
+<h2>Arbetssätt </h2> 
+ <p style="padding":10px;> I uppgift B_3 och B_4 ska ni arbeta utifrån projektmetodiken Scrum. 
 Scrum är en “agil” projektmetodik som många utvecklingsföretag idag 
 följer.</p>
 <p>En grafisk profil är de regler som beskriver vilka färger och bokstavsstilar som ska användas när 
@@ -276,23 +250,13 @@ företagets logotyp är reglerad i den grafiska profilen.
  Lägg fokus på färgpalett, logotyp och typsnitt. </p>
  
  <p>Länk till uppgift: <a href="http://seitzberglinda.github.io/visitmeonline.html"> Klicka</a></p>
- 
 
-  <a href="#top">Gå till toppen av sidan</a>
- 
-</br>
-<div class="wrapper">
-	<a name="Inlämning 5" class="smoothScroll">B_3 Webbsida med Ramverk - Grupp </a>
-	<h2>Grupparbete - fortsättning på tidigare arbete med ramverk. </h2>
- <p> </p>
- 
- <p>Länk till uppgift: <a href="http://robhogfeldt-fron15.github.io/visitmeonline-bootstrap/"> Klicka</a></p>
- 
 
   <a href="#top">Gå till toppen av sidan</a>
  
   
-</br>
+</div>
+
 <div class="wrapper">
 	<a name="Inlämning 6" class="smoothScroll">Infographic </a>
 	<h2>Eget arbete, uppgift: Skapa en interaktiv Infographic</h2> 
@@ -326,25 +290,13 @@ publicerar du det på din DPY.</p>
  <p>Länk till uppgift: <a href="http://seitzberglinda.github.io/infographic.html"> Klicka</a></p>
  
 
-  <a href="#top">Gå till toppen av sidan</a>
+  <a href="#top">Gå till toppen av sidan</a></div>
  
 </br>
 
 
-<div class="wrapper">
-	 <a name="Inlämning 7" class="smoothScroll">Till pappa</a>
-	<h2>Denna sida är till min pappa på hans 59 års dag. Uppgiften ingår inte i skolarbetet.</h2>
-</br>
- <p> Klicka på länken för att komma till Din present pappa!. </p>
- 
- <p>Länk till uppgift: <a href="http://seitzberglinda.github.io/presentkort.html"> Klicka</a></p>
  
 
-  <a href="#top">Gå till toppen av sidan</a>
- 
-
- </div>
- </br>
  <div class="wrapper">	
 <a name="kognitionsvetenskap" class="smoothScroll"></a>
 
@@ -378,13 +330,10 @@ From adjusting man to technology, to adapt the technique to humans.
 <p>
 Could not have said it better myself - <a href="http://uxmastery.com/7-signs-person-isnt-actually-ux-designer/"> Article by Emil Lambrect </a>-</p>
 </div>
-</br>
+
   <a name="Lernia" class="smoothScroll"></a>
         <div class="wrapper">
-        </br>
-        </br>
-        </br>
-        <h2>Javascriptdevelopment, FrontEnd, from august 2015 - december 2016 </h2> <img src="http://i.imgur.com/0z9IRtO.jpg"/>
+                <h2>Javascriptdevelopment, FrontEnd, from august 2015 - december 2016 </h2> <img src="http://i.imgur.com/0z9IRtO.jpg"/>
        <p>This study is 1.5 years and prepares students for a career
         in the JavaScript programming language, and the front-end design. 
         In modern computer technology is front-end often associated  with
@@ -397,16 +346,13 @@ Could not have said it better myself - <a href="http://uxmastery.com/7-signs-per
         
         Read more about it at:
         <a href="http://www.lernia.se/utbildning/Distans/Data-och-IT/JavaScriptutvecklare---Frontend-26659/#">Link to 
-education page</a>.</p>
+education page</a>.
         </div>
         
     
           <a name="HIS" class="smoothScroll"></a>
         <div class="wrapper">
-        </br>
-        </br>
-        </br>
-         <h2>Cognitive Science, 180 hp, University of Skövde. From august 2012- june 2015</h2><img src="http://i.imgur.com/YC7g83O.png"/>
+                 <h2>Cognitive Science, 180 hp, University of Skövde. From august 2012- june 2015</h2><img src="http://i.imgur.com/YC7g83O.png"/>
            <p>Cognitive science is an interdisciplinary field in which human thinking
            (thought processes / information processing) is studied. Computer science,
            cognitive psychology, cognitive neuroscience, linguistics and philosophy included as central subtopics.</p>
@@ -436,10 +382,10 @@ learn to analyze and adapt texts to different contexts, audiences and media, suc
       <p>Read more about it at <a href="textdesign">Mälardalens University</a>.
            
 </div>
-</br>
-<div class="wrapper">
+
+<div class="wrapper6">
    <a name="contact" class="smoothScroll"></a>
-   <img src="http://i.imgur.com/WH8WMPw.jpg?1"/>
+   
      <form id="contact_form" action="mailto:lindasahlgren@hotmail.com" method="post" enctype="multipart/form-data" float="left">
 	<div class="row">
 		<label for="name">Name:</label><br />
@@ -454,18 +400,14 @@ learn to analyze and adapt texts to different contexts, audiences and media, suc
 		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 		<input id="submit_button" type="submit" value="Send Email" action="mailto:lindasahlgren@hotmail.com" method="post" enctype="multipart/form-data"  />
 	</div>
-
+<img src="http://i.imgur.com/WH8WMPw.jpg?1"/>
 </form>	
 
     </div>  
 
 
-
-
-
-
-</div>
-
 </body>
 
 </html>
+
+
