@@ -1,21 +1,124 @@
 body
 {
-	background-color:white;
+	
 	background-image:url("http://i.imgur.com/EewBkmS.jpg");
-	background-position:scroll;
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 	font-size:large;
 	font-color:black;
-	background-color:white;
 	text-align:justify;
 	margin:0;
 
 }
 
+.wrapper
+{
+	width:1100px;
+	height:auto;
+	padding:25px;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size:large;
+	background-color: white;
+	
+}
+
+	
+	.wrappereducation
+	
+	{
+	width:1100px;
+	height:auto;
+	padding:25px;
+		margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	font-family:"Century Schoolbook";
+	font-size:large;
+background-color: white;
+
+	
+}
+.wrapper2
+{ height:950px;
+width:1200px;	
+margin-bottom:15px;
+margin-left:auto;
+margin-right:auto;
+margin-top:15px;
+background-color:white;	
+padding:10px;
+}
+
+.wrapper3
+{
+	height:600px;
+	width:1100px;
+	margin-top:1250px;
+	margin-left:auto;
+	margin-right:auto;
+	border:thin solid black;
+	padding:15px;
+	background-color:white;
+
+}
+
+.wrapper4
+{
+	height:275px;
+	width:1100px;
+	background-image:url('../lila.jpg');
+	background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	font-family:"Century Schoolbook";
+	background-color:white;
+	}
+	
+.wrapper5
+{
+	height:350px;
+	width:1100px;
+	background-image:;
+	background-repeat:no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	padding:25px;
+	font-family:"Century Schoolbook";
+	background-color:white;
+	}
+	
+	
+	.wrapper6
+{
+	height:275px;
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	background-color:transparent;
+	}
 
 
-  /*här börjar min meny*/
+	.finalwrap
+	{
+	width:1200px;
+	height:2000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+
+
+
+
 .huvudmeny
 {
    
@@ -163,11 +266,9 @@ h1
 h2
 {
 
-font-family: "Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif";
+font-familyfont-family:"Freestyle Script";
 	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
+		font-weight: 500;
 	line-height: 26.4px;
 
 	background-color:white;
@@ -187,21 +288,6 @@ h5
 	
 }
 	
-
-.wrapper
-{
-	width:1000px;
-	height:auto;
-	padding-top:100px;
-	padding-left:10px;
-	padding-right:10px;
-	margin-left:auto;
-	margin-right:auto;
-	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-	font-size:large;
-background-color: white;
-	
-}
 
 
 box {
@@ -308,18 +394,6 @@ padding-left:10px;
     100% { opacity:1; }
 }
 
-.wrapper2
-{ height:1050px;
-width:1200px;	
-margin-bottom:15px;
-margin-left:auto;
-margin-right:auto;
-margin-top:15px;
-
-
-	
-	
-}
 .boxleft
 {
 	height:700px;
@@ -437,8 +511,7 @@ small {
 	cursor: pointer;
 	font-size: 60px;
 	color: #black;
-		background-color:white;
-
+	background-color:white;
 	z-index: 99;
 	background-image:url("http://i.imgur.com/luRyKnr.png");
 }
@@ -462,7 +535,7 @@ small {
 }
 
 .imgholder
-{height:auto
+{height:auto;
 width:900px;
 margin-top:150px;
 margin-right:auto;
@@ -495,3 +568,38 @@ div.transbox p {
 margin-left:auto;
 margin-right:auto;
 }
+
+
+.short
+{
+	height:250px;
+	width:600px;
+	padding:5px;
+	font-family:"Freestyle Script";
+		float:right;
+		margin-bottom:75px;
+	font-size:30px;
+	color:purple;
+
+	
+}
+
+.boxliten
+
+{
+	height:250px;
+	width:300px;
+	padding:10px;
+	border:thin solid black;
+		float:left;
+	font-family:"Marela";
+	background-color:white;
+
+}
+
+.text1
+{
+	font-family:"Century Schoolbook";
+	font-size:15px;
+}
+
