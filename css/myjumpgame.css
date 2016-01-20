@@ -1,0 +1,33 @@
+body{
+	
+	background-image:url("http://i.imgur.com/xmHHflP.jpg?1");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	}
+
+
+
+
+canvas
+{
+background-color:transparent;
+border:1px solid black;
+margin-left:auto;
+margin-right:auto;
+margin-top:250px;
+
+
+}
+
+.myCanvas
+
+{
+	background-image:url('mario.jpg');
+}
+
+h1
+{
+	font-family:"Courier New", Courier, monospace;
+	text-color:#6699FF;
+}
