@@ -1,11 +1,17 @@
 <!DOCTYPE HTML>
 <head>
     <title>Linda Seitzberg</title>
-    <link href="css/myjumpgame.css" rel="stylesheet" type="text/css">
+    <link href="myjumpinggame.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+	.auto-style1 {
+		text-align: center;
+	}
+	</style>
 </head>
 <html>
 <body>
-  <h3>Arrow keys to move, and space to jump</h3>
+  <div class="auto-style1">
+  <h3>Help Linda home by using the keys to move, and space to jump</h3>
     <canvas id="canvas"></canvas>
     <script>
     (function() {
@@ -15,8 +21,8 @@
 
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d"),
-    width = 800,
-    height = 300,
+    width = 1175,
+    height = 100,
        player = {
       x : width/2,
       y : height - 5,
@@ -57,9 +63,7 @@ function update(){
     }
    
     player.velX *= friction;
-   
     player.velY += gravity;
-  
     player.x += player.velX;
     player.y += player.velY;
     
@@ -73,7 +77,7 @@ function update(){
         player.y = height - player.height;
         player.jumping = false;
     }
-  
+
   ctx.clearRect(0,0,width,height);
   ctx.fillStyle = "red";
   ctx.fillRect(player.x, player.y, player.width, player.height);
@@ -94,6 +98,8 @@ window.addEventListener("load",function(){
     update();
 });
 </script>
+    
+  </div>
     
 </body>
 
