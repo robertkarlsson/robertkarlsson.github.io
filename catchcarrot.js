@@ -1,13 +1,13 @@
-<script>var game = new Phaser.Game(1300, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+var game = new Phaser.Game(1300, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
 
 function preload() {
 
-    game.load.image('sky', 'http://i.imgur.com/Ka28eun.png');
-    game.load.image('ground', 'http://i.imgur.com/vljwiva.png');
-    game.load.image('star', 'http://imgur.com/IGPlaoC ');
-    game.load.image('mushroom', 'http://i.imgur.com/Ka28eun.png');
-	game.load.image('moln', 'http://i.imgur.com/hYt2SP7.png');
-    game.load.spritesheet('dude', 'http://i.imgur.com/rCysIVB.png', 32, 48);
+    game.load.image('sky', 'http://i.imgur.com/Ka28eun.png/');
+    game.load.image('ground', 'http://i.imgur.com/vljwiva.png/');
+    game.load.image('star', 'http://imgur.com/IGPlaoC.png/');
+    game.load.image('mushroom', 'http://i.imgur.com/Ka28eun.png/');
+    game.load.image('moln', 'http://i.imgur.com/hYt2SP7.png/');
+    game.load.spritesheet('dude', 'http://i.imgur.com/rCysIVB.png/)', 32, 48);
    
 
 }
@@ -144,4 +144,4 @@ function collectStar (player, star) {
     scoreText.text = 'Samlade morötter: ' + score;
 
 }
-</script>
+
