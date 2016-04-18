@@ -1,8 +1,10 @@
 ---
 layout: post
+comments: true
 title:  "Understanding and writing neat looking closures in Swift"
+disqus_identifier: fbe74050-d949-4303-bd2e-04464682ab60
 date:   2016-03-21 15:26:51 +0100
-categories: swift closures
+
 ---
 
 Apple have added som tweaks to them closures that made me love the way they are written in swift. 

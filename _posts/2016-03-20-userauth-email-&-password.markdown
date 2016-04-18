@@ -1,8 +1,11 @@
 ---
 layout: post
+comments: true
 title:  "User Authentication: Email & Password, storing user data with the javascript API"
+disqus_identifier: c89248c7-3f28-4001-abb4-99231512ff02
 date:   2016-03-20 20:26:51 +0100
-categories: javascript firebase
+
+
 ---
 This post is in Swedish and it will translated to English in the upcoming week.
 
